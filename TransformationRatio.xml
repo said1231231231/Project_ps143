@@ -1,0 +1,2403 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Project>
+    <TransformationRatioDescribe>
+        <DevType name="BMRZ_TR-06-40-14" groupguid_starting_value="33000" tagguid_starting_value = "330">
+            <NewGroups>
+                <NewGroup name="Первичные значения (расчетные)">
+                    <!--если name пустое - то тег отключен -->
+                    <NewCalculatedTag name="Ia" formula="0 * 1" uom = "А"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="33792"/>
+                        <Tag tagguid="199680"/>
+                        <Tag tagguid="ext" tr_id="2"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Iв"  formula="0 * 1" uom = "А"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="34816"/>
+                        <Tag tagguid="201728"/>
+                        <Tag tagguid="ext" tr_id="2"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Ic"  formula="0 * 1" uom = "А"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="35840"/>
+                        <Tag tagguid="203776"/>
+                        <Tag tagguid="ext" tr_id="2"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Uав1"  formula="0 * 1 / 2" uom = "кВ"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="36864"/>
+                        <Tag tagguid="205824"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Uвс1"  formula="0 * 1 / 2" uom = "кВ"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="37888"/>
+                        <Tag tagguid="207872"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="3Io"  formula="0 * 1" uom = "А"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="38912"/>
+                        <Tag tagguid="209920"/>
+                        <Tag tagguid="ext" tr_id="3"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Uaв2"  formula="0 * 1 / 2"  uom = "кВ"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="39936"/>
+                        <Tag tagguid="211968"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Uвс2"  formula="0 * 1 / 2"  uom = "кВ"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="40960"/>
+                        <Tag tagguid="214016"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Iqk"  formula="0 * 1" uom = "A"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="41984"/>
+                        <Tag tagguid="216064"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="3Io расч"  formula="0 * 1" uom = "А"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="43008"/>
+                        <Tag tagguid="218112"/>
+                        <Tag tagguid="ext" tr_id="3"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="I2"  formula="0 * 1" uom = "А   "> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="44032"/>
+                        <Tag tagguid="220160"/>
+                        <Tag tagguid="ext" tr_id="2"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="U2 1"  formula="0 * 1" uom = "Кв"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="45056"/>
+                        <Tag tagguid="222208"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="U2 2"  formula="0 * 1" uom = "кВ"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="46080"/>
+                        <Tag tagguid="224256"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Ia отн"  formula="0 * 1" uom = "А"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="47104"/>
+                        <Tag tagguid="226304"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Iв отн"  formula="0 * 1" uom = "А"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="48128"/>
+                        <Tag tagguid="228352"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Ic отн"  formula="0 * 1" uom = "А"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="49152"/>
+                        <Tag tagguid="230400"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="3Io отн"  formula="0 * 1" uom = "А"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="50176"/>
+                        <Tag tagguid="232448"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Iqk отн"  formula="0 * 1" uom = "А"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="51200"/>
+                        <Tag tagguid="234496"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="I2 отн"  formula="0 * 1" uom = "А"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="52224"/>
+                        <Tag tagguid="236544"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="3Io расч отн"  formula="0 * 1" uom = "А"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="53248"/>
+                        <Tag tagguid="238592"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="F"  formula="0 * 1" uom = "Гц"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="54272"/>
+                        <Tag tagguid="240640"/>
+                    </NewCalculatedTag>                
+                </NewGroup>
+                <NewGroup name="Вторичные значения (расчетные)">
+                    <!--если name пустое - то тег отключен -->
+                    <NewCalculatedTag name="Ia" formula="0 * 1 / 2" uom = "А"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="33792"/>
+                        <Tag tagguid="199680"/>
+                        <Tag tagguid="ext" tr_id="2"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Iв"  formula="0 * 1 / 2" uom = "А"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="34816"/>
+                        <Tag tagguid="201728"/>
+                        <Tag tagguid="ext" tr_id="2"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Ic"  formula="0 * 1 / 2" uom = "А"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="35840"/>
+                        <Tag tagguid="203776"/>
+                        <Tag tagguid="ext" tr_id="2"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Uав1"  formula="0 * 1 / 2" uom = "В"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="36864"/>
+                        <Tag tagguid="205824"/>
+                        <Tag tagguid="ext" tr_id="3"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Uвс1"  formula="0 * 1 / 2" uom = "В"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="37888"/>
+                        <Tag tagguid="207872"/>
+                        <Tag tagguid="ext" tr_id="3"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="3Io"  formula="0 * 1 / 2" uom = "А"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="38912"/>
+                        <Tag tagguid="209920"/>
+                        <Tag tagguid="ext" tr_id="4"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Uaв2"  formula="0 * 1 / 2" uom = "В"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="39936"/>
+                        <Tag tagguid="211968"/>
+                        <Tag tagguid="ext" tr_id="5"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Uвс2"  formula="0 * 1 / 2" uom = "В"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="40960"/>
+                        <Tag tagguid="214016"/>
+                        <Tag tagguid="ext" tr_id="5"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Iqk"  formula="0 * 1 / 2" uom = "А"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="41984"/>
+                        <Tag tagguid="216064"/>
+                        <Tag tagguid="ext" tr_id="4"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="3Io расч"  formula="0 * 1 / 2" uom = "А"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="43008"/>
+                        <Tag tagguid="218112"/>
+                        <Tag tagguid="ext" tr_id="4"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="I2"  formula="0 * 1" uom = "А"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="44032"/>
+                        <Tag tagguid="220160"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="U2 1"  formula="0 * 1" uom = "В"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="45056"/>
+                        <Tag tagguid="222208"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="U2 2"  formula="0 * 1" uom = "В"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="46080"/>
+                        <Tag tagguid="224256"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Ia отн"  formula="0 * 1" uom = "А"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="47104"/>
+                        <Tag tagguid="226304"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Iв отн"  formula="0 * 1" uom = "А"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="48128"/>
+                        <Tag tagguid="228352"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Ic отн"  formula="0 * 1" uom = "А"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="49152"/>
+                        <Tag tagguid="230400"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="3Io отн"  formula="0 * 1" uom = "А"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="50176"/>
+                        <Tag tagguid="232448"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Iqk отн"  formula="0 * 1" uom = "А"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="51200"/>
+                        <Tag tagguid="234496"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="I2 отн"  formula="0 * 1" uom = "А"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="52224"/>
+                        <Tag tagguid="236544"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="3Io расч отн"  formula="0 * 1" uom = "А"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="53248"/>
+                        <Tag tagguid="238592"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="F"  formula="0 * 1" uom = "Гц"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="54272"/>
+                        <Tag tagguid="240640"/>
+                    </NewCalculatedTag>                
+                </NewGroup>
+                <NewGroup name="Максметр (расчетные)">
+                    <!--если name пустое - то тег отключен -->
+                    <NewCalculatedTag name="Ia" formula="0 * 1" uom = "А"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="142336"/>
+                        <Tag tagguid="199680"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Iв"  formula="0 * 1" uom = "А"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="143360"/>
+                        <Tag tagguid="201728"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Ic"  formula="0 * 1" uom = "А"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="144384"/>
+                        <Tag tagguid="203776"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="3Io"  formula="0 * 1" uom = "А"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="145408"/>
+                        <Tag tagguid="209920"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Iqk"  formula="0 * 1" uom = "А"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="146432"/>
+                        <Tag tagguid="216064"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                </NewGroup>
+                <NewGroup name="Расчетные дискретные значения">
+                    <NewCalculatedTag name="БМРЗ исправен" tagguid="400" formula="((!0) &amp; (!1))" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="1574912"/><!--бит 3(11) 1574912-->
+                        <Tag tagguid="1589248"/><!--бит 6(14) 1589248-->
+                     </NewCalculatedTag>
+                    <NewCalculatedTag name="Неисправность БМРЗ" tagguid="401" formula="(0 &amp; (!1))" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="1574912"/><!--бит 3(11) 1574912-->
+                        <Tag tagguid="1589248"/><!--бит 6(14) 1589248-->
+                     </NewCalculatedTag>
+                    <NewCalculatedTag name="Отказ БМРЗ" tagguid="402" formula="((!0) &amp; 1)" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="1574912"/><!--бит 3(11) 1574912-->
+                        <Tag tagguid="1589248"/><!--бит 6(14) 1589248-->
+                     </NewCalculatedTag>
+                    <NewCalculatedTag name="Режим Тест БМРЗ" tagguid="403" formula="0 &amp; 1" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="1574912"/><!--бит 3(11) 1574912-->
+                        <Tag tagguid="1589248"/><!--бит 6(14) 1589248-->
+                     </NewCalculatedTag>
+                </NewGroup>
+            </NewGroups>    
+            <!-- далее перечень устройств на присоединениях и значения соотв коэф трансф -->
+            <Devices>
+                <TransformationRatio devGUID = "257">
+                    <TR id="1" value="1000" />
+                    <TR id="2" value="400" />
+					<TR id="3" value="100" />
+					<TR id="4" value="80" />
+					<TR id="5" value="350" />                 
+                </TransformationRatio>
+                <TransformationRatio devGUID = "259">
+                    <TR id="1" value="1000" />
+                    <TR id="2" value="400" />
+					<TR id="3" value="100" />
+					<TR id="4" value="80" />
+					<TR id="5" value="350" />
+                </TransformationRatio>
+            </Devices>
+        </DevType>
+        <DevType name="BMRZ_ТД_30_11" groupguid_starting_value="33000" tagguid_starting_value = "330">
+            <NewGroups>
+                <NewGroup name="Первичные значения (расчетные)">
+                    <!--если name пустое - то тег отключен -->
+                    <NewCalculatedTag name="Ia ВН" formula="0 * 1 * 2" uom = "A"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="33792"/>
+                        <Tag tagguid="199680"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Ib ВН"  formula="0 * 1 * 2" uom = "A"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="34816"/>
+                        <Tag tagguid="201728"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Ic ВН"  formula="0 * 1 * 2" uom = "A"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="35840"/>
+                        <Tag tagguid="203776"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Ia СН"  formula="0 * 1 * 2" uom = "A"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="36864"/>
+                        <Tag tagguid="205824"/>
+                        <Tag tagguid="ext" tr_id="2"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Ib СН"  formula="0 * 1 * 2" uom = "A"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="37888"/>
+                        <Tag tagguid="207872"/>
+                        <Tag tagguid="ext" tr_id="2"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Ic СН"  formula="0 * 1 * 2" uom = "A"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="38912"/>
+                        <Tag tagguid="209920"/>
+                        <Tag tagguid="ext" tr_id="2"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Ia НН"  formula="0 * 1 * 2" uom = "A"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="39936"/>
+                        <Tag tagguid="211968"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Ib НН"  formula="0 * 1 * 2" uom = "A"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="40960"/>
+                        <Tag tagguid="214016"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Ic НН"  formula="0 * 1 * 2" uom = "A"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="41984"/>
+                        <Tag tagguid="216064"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="IdA"  formula="0 * 1" uom = "*Iн"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="43008"/>
+                        <Tag tagguid="218112"/>
+                        <Tag tagguid="ext" tr_id="2"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="IdB"  formula="0 * 1" uom = "*Iн"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="44032"/>
+                        <Tag tagguid="220160"/>
+                        <Tag tagguid="ext" tr_id="2"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="IdC"  formula="0 * 1" uom = "*Iн"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="45056"/>
+                        <Tag tagguid="222208"/>
+                        <Tag tagguid="ext" tr_id="2"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="IтA"  formula="0 * 1" uom = "*Iн"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="46080"/>
+                        <Tag tagguid="224256"/>
+                        <Tag tagguid="ext" tr_id="2"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="IтB"  formula="0 * 1" uom = "*Iн"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="47104"/>
+                        <Tag tagguid="226304"/>
+                        <Tag tagguid="ext" tr_id="2"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="IтC"  formula="0 * 1" uom = "*Iн"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="48128"/>
+                        <Tag tagguid="228352"/>
+                        <Tag tagguid="ext" tr_id="2"/>
+                        </NewCalculatedTag>                
+                    <NewCalculatedTag name="F"  formula="0 * 1" uom = "Гц"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="49152"/>
+                        <Tag tagguid="230400"/>
+                    </NewCalculatedTag>                
+                </NewGroup>
+                <NewGroup name="Вторичные значения (расчетные)">
+                    <!--если name пустое - то тег отключен -->
+                    <NewCalculatedTag name="Ia ВН" formula="0 * 1" uom = "A"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="33792"/>
+                        <Tag tagguid="199680"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Ib ВН"  formula="0 * 1" uom = "A"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="34816"/>
+                        <Tag tagguid="201728"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Ic ВН"  formula="0 * 1" uom = "A"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="35840"/>
+                        <Tag tagguid="203776"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Ia СН"  formula="0 * 1" uom = "A"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="36864"/>
+                        <Tag tagguid="205824"/>
+                        <Tag tagguid="ext" tr_id="2"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Ib СН"  formula="0 * 1" uom = "A"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="37888"/>
+                        <Tag tagguid="207872"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Ic СН"  formula="0 * 1" uom = "A"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="38912"/>
+                        <Tag tagguid="209920"/>
+                        <Tag tagguid="ext" tr_id="2"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Ia НН"  formula="0 * 1" uom = "A"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="39936"/>
+                        <Tag tagguid="211968"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Ib НН"  formula="0 * 1" uom = "A"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="40960"/>
+                        <Tag tagguid="214016"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Ic НН"  formula="0 * 1" uom = "A"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="41984"/>
+                        <Tag tagguid="216064"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="IdA"  formula="0 * 1" uom = "*Iн"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="43008"/>
+                        <Tag tagguid="218112"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="IdB"  formula="0 * 1" uom = "*Iн"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="44032"/>
+                        <Tag tagguid="220160"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="IdC"  formula="0 * 1" uom = "*Iн"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="45056"/>
+                        <Tag tagguid="222208"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="IтA"  formula="0 * 1" uom = "*Iн"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="46080"/>
+                        <Tag tagguid="224256"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="IтB"  formula="0 * 1" uom = "*Iн"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="47104"/>
+                        <Tag tagguid="226304"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="IтC"  formula="0 * 1" uom = "*Iн"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="48128"/>
+                        <Tag tagguid="228352"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="F"  formula="0 * 1" uom = "Гц"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="49152"/>
+                        <Tag tagguid="230400"/>
+                    </NewCalculatedTag>                
+                </NewGroup>
+                <NewGroup name="Максметр (расчетные)">
+                    <!--если name пустое - то тег отключен -->
+                    <NewCalculatedTag name="IdA=" formula="0 * 1" uom = "*Iн"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="142336"/>
+                        <Tag tagguid="218112"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="IdB"  formula="0 * 1" uom = "*Iн"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="143360"/>
+                        <Tag tagguid="220160"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="IdC"  formula="0 * 1" uom = "*Iн"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="144384"/>
+                        <Tag tagguid="222208"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                </NewGroup>
+                <NewGroup name="Расчетные дискретные значения">
+                    <NewCalculatedTag name="БМРЗ исправен" tagguid="400" formula="((!0) &amp; (!1))" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="1574912"/><!--бит 3(11) 1574912-->
+                        <Tag tagguid="1589248"/><!--бит 6(14) 1589248-->
+                     </NewCalculatedTag>
+                    <NewCalculatedTag name="Неисправность БМРЗ" tagguid="401" formula="(0 &amp; (!1))" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="1574912"/><!--бит 3(11) 1574912-->
+                        <Tag tagguid="1589248"/><!--бит 6(14) 1589248-->
+                     </NewCalculatedTag>
+                    <NewCalculatedTag name="Отказ БМРЗ" tagguid="402" formula="((!0) &amp; 1)" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="1574912"/><!--бит 3(11) 1574912-->
+                        <Tag tagguid="1589248"/><!--бит 6(14) 1589248-->
+                     </NewCalculatedTag>
+                    <NewCalculatedTag name="Режим Тест БМРЗ" tagguid="403" formula="0 &amp; 1" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="1574912"/><!--бит 3(11) 1574912-->
+                        <Tag tagguid="1589248"/><!--бит 6(14) 1589248-->
+                     </NewCalculatedTag>
+                </NewGroup>
+            </NewGroups>    
+            <!-- далее перечень устройств на присоединениях и значения соотв коэф трансф -->
+            <Devices>
+                <TransformationRatio devGUID = "258">
+                    <TR id="1" value="400" />
+                    <TR id="2" value="120" />
+                </TransformationRatio>
+                <TransformationRatio devGUID = "260">
+                    <TR id="1" value="400" />
+                    <TR id="2" value="120" />
+                </TransformationRatio>
+            </Devices>
+        </DevType>
+        <DevType name="BMRZ_KL_33_12" groupguid_starting_value="33000" tagguid_starting_value = "330">
+            <NewGroups>
+                <NewGroup name="Первичные значения (расчетные)">
+                    <!--если name пустое - то тег отключен -->
+                    <NewCalculatedTag name="Ia" formula="0 * 1" uom = "А"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="33792"/>
+                        <Tag tagguid="199680"/>
+                        <Tag tagguid="ext" tr_id="2"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Ib"  formula="0 * 1" uom = "А"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="34816"/>
+                        <Tag tagguid="201728"/>
+                        <Tag tagguid="ext" tr_id="2"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Ic"  formula="0 * 1" uom = "А"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="35840"/>
+                        <Tag tagguid="203776"/>
+                        <Tag tagguid="ext" tr_id="2"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="3Io"  formula="0 * 1" uom = "А"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="36864"/>
+                        <Tag tagguid="205824"/>
+                        <Tag tagguid="ext" tr_id="2"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="3Uo"  formula="0 * 1 / 2" uom = "кВ"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="37888"/>
+                        <Tag tagguid="207872"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Uab"  formula="0 * 1 / 2" uom = "кВ"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="38912"/>
+                        <Tag tagguid="209920"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Ubc"  formula="0 * 1 / 2" uom = "кВ"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="39936"/>
+                        <Tag tagguid="211968"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="U2"  formula="0 * 1 / 2" uom = "кВ"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="41984"/>
+                        <Tag tagguid="216064"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="I2"  formula="0 * 1" uom = "А"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="43008"/>
+                        <Tag tagguid="218112"/>
+                        <Tag tagguid="ext" tr_id="3"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="3Ioвг"  formula="0 * 1 / 2" uom = "А"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="44032"/>
+                        <Tag tagguid="220160"/>
+                        <Tag tagguid="ext" tr_id="4"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Фa^bc"  formula="0 * 1" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="46080"/>
+                        <Tag tagguid="224256"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Фс^ab"  formula="0 * 1" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="48128"/>
+                        <Tag tagguid="228352"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="F"  formula="0 * 1" uom = "Гц"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="51200"/>
+                        <Tag tagguid="234496"/>
+                    </NewCalculatedTag>                
+                </NewGroup>
+                <NewGroup name="Вторичные значения (расчетные)">
+                    <!--если name пустое - то тег отключен -->
+                    <NewCalculatedTag name="Ia" formula="0 * 1 / 2" uom = "А"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="33792"/>
+                        <Tag tagguid="199680"/>
+                        <Tag tagguid="ext" tr_id="2"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Ib"  formula="0 * 1 / 2" uom = "А"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="34816"/>
+                        <Tag tagguid="201728"/>
+                        <Tag tagguid="ext" tr_id="2"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Ic"  formula="0 * 1 / 2" uom = "А"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="35840"/>
+                        <Tag tagguid="203776"/>
+                        <Tag tagguid="ext" tr_id="2"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="3Io"  formula="0 * 1 / 2" uom = "А"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="36864"/>
+                        <Tag tagguid="205824"/>
+                        <Tag tagguid="ext" tr_id="3"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="3Uo"  formula="0 * 1" uom = "В"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="37888"/>
+                        <Tag tagguid="207872"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Uab"  formula="0 * 1" uom = "В"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="38912"/>
+                        <Tag tagguid="209920"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Ubc"  formula="0 * 1" uom = "В"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="39936"/>
+                        <Tag tagguid="211968"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="U2"  formula="0 * 1" uom = "В"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="41984"/>
+                        <Tag tagguid="216064"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="I2"  formula="0 * 1 / 2" uom = "А"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="43008"/>
+                        <Tag tagguid="218112"/>
+                        <Tag tagguid="ext" tr_id="2"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="3Ioвг"  formula="0 * 1" uom = "А"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="44032"/>
+                        <Tag tagguid="220160"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Фa^bc"  formula="0 * 1" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="46080"/>
+                        <Tag tagguid="224256"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Фс^ab"  formula="0 * 1" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="48128"/>
+                        <Tag tagguid="228352"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="F"  formula="0 * 1" uom = "Гц"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="51200"/>
+                        <Tag tagguid="234496"/>
+                    </NewCalculatedTag>                
+                </NewGroup>
+                <NewGroup name="Максметр (расчетные)">
+                    <!--если name пустое - то тег отключен -->
+                    <NewCalculatedTag name="Ia" formula="0 * 1" uom = "А"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="142336"/>
+                        <Tag tagguid="199680"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Ib"  formula="0 * 1" uom = "А"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="143360"/>
+                        <Tag tagguid="201728"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Ic"  formula="0 * 1" uom = "А"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="144384"/>
+                        <Tag tagguid="203776"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="3Io"  formula="0 * 1" uom = "А"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="145408"/>
+                        <Tag tagguid="205824"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="3Uo"  formula="0 * 1" uom = "В"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="146432"/>
+                        <Tag tagguid="207872"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                </NewGroup>
+                <NewGroup name="Расчетные дискретные значения">
+                    <NewCalculatedTag name="БМРЗ исправен" tagguid="400" formula="((!0) &amp; (!1))" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="1574912"/><!--бит 3(11) 1574912-->
+                        <Tag tagguid="1589248"/><!--бит 6(14) 1589248-->
+                     </NewCalculatedTag>
+                    <NewCalculatedTag name="Неисправность БМРЗ" tagguid="401" formula="(0 &amp; (!1))" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="1574912"/><!--бит 3(11) 1574912-->
+                        <Tag tagguid="1589248"/><!--бит 6(14) 1589248-->
+                     </NewCalculatedTag>
+                    <NewCalculatedTag name="Отказ БМРЗ" tagguid="402" formula="((!0) &amp; 1)" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="1574912"/><!--бит 3(11) 1574912-->
+                        <Tag tagguid="1589248"/><!--бит 6(14) 1589248-->
+                     </NewCalculatedTag>
+                    <NewCalculatedTag name="Режим Тест БМРЗ" tagguid="403" formula="0 &amp; 1" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="1574912"/><!--бит 3(11) 1574912-->
+                        <Tag tagguid="1589248"/><!--бит 6(14) 1589248-->
+                     </NewCalculatedTag>
+                </NewGroup>
+            </NewGroups>    
+            <!-- далее перечень устройств на присоединениях и значения соотв коэф трансф -->
+            <Devices>
+                <TransformationRatio devGUID = "281">
+                    <TR id="1" value="10" />
+                    <TR id="2" value="40" />
+                    <TR id="3" value="30" />
+					<TR id="4" value="1" />
+                </TransformationRatio>
+                <TransformationRatio devGUID = "282">
+                    <TR id="1" value="10" />
+                    <TR id="2" value="1" />
+                    <TR id="3" value="1" />
+					<TR id="4" value="1" />
+                </TransformationRatio>
+                <TransformationRatio devGUID = "283">
+                    <TR id="1" value="10" />
+                    <TR id="2" value="40" />
+                    <TR id="3" value="30" />
+					<TR id="4" value="1" />
+                </TransformationRatio>
+                <TransformationRatio devGUID = "284">
+                    <TR id="1" value="10" />
+                    <TR id="2" value="80" />
+                    <TR id="3" value="30" />
+					<TR id="4" value="1" />
+                </TransformationRatio>
+                <TransformationRatio devGUID = "285">
+                    <TR id="1" value="10" />
+                    <TR id="2" value="40" />
+                    <TR id="3" value="30" />
+					<TR id="4" value="1" />
+                </TransformationRatio>
+                <TransformationRatio devGUID = "286">
+                    <TR id="1" value="10" />
+                    <TR id="2" value="40" />
+                    <TR id="3" value="30" />
+					<TR id="4" value="1" />
+                </TransformationRatio>
+                <TransformationRatio devGUID = "287">
+                    <TR id="1" value="10" />
+                    <TR id="2" value="60" />
+                    <TR id="3" value="30" />
+					<TR id="4" value="1" />
+                </TransformationRatio>
+                <TransformationRatio devGUID = "288">
+                    <TR id="1" value="10" />
+                    <TR id="2" value="40" />
+                    <TR id="3" value="30" />
+					<TR id="4" value="1" />
+                </TransformationRatio>
+                <TransformationRatio devGUID = "289">
+                    <TR id="1" value="10" />
+                    <TR id="2" value="80" />
+                    <TR id="3" value="30" />
+					<TR id="4" value="1" />
+                </TransformationRatio>
+                <TransformationRatio devGUID = "290">
+                    <TR id="1" value="10" />
+                    <TR id="2" value="80" />
+                    <TR id="3" value="30" />
+					<TR id="4" value="1" />
+                </TransformationRatio>
+                <TransformationRatio devGUID = "291">
+                    <TR id="1" value="10" />
+                    <TR id="2" value="40" />
+                    <TR id="3" value="30" />
+					<TR id="4" value="1" />
+                </TransformationRatio>
+                <TransformationRatio devGUID = "292">
+                    <TR id="1" value="10" />
+                    <TR id="2" value="40" />
+                    <TR id="3" value="30" />
+					<TR id="4" value="1" />
+                </TransformationRatio>
+                <TransformationRatio devGUID = "293">
+                    <TR id="1" value="10" />
+                    <TR id="2" value="40" />
+                    <TR id="3" value="30" />
+					<TR id="4" value="1" />
+                </TransformationRatio>
+                <TransformationRatio devGUID = "294">
+                    <TR id="1" value="10" />
+                    <TR id="2" value="40" />
+                    <TR id="3" value="30" />
+					<TR id="4" value="1" />
+                </TransformationRatio>
+                <TransformationRatio devGUID = "295">
+                    <TR id="1" value="10" />
+                    <TR id="2" value="40" /> 
+                    <TR id="3" value="30" />
+					<TR id="4" value="1" />
+                </TransformationRatio>
+                <TransformationRatio devGUID = "296">
+                    <TR id="1" value="10" />
+                    <TR id="2" value="60" />
+                    <TR id="3" value="30" />
+					<TR id="4" value="1" />
+                </TransformationRatio>
+                <TransformationRatio devGUID = "297">
+                    <TR id="1" value="10" />
+                    <TR id="2" value="60" />
+                    <TR id="3" value="30" />
+					<TR id="4" value="1" />
+                </TransformationRatio>
+                <TransformationRatio devGUID = "298">
+                    <TR id="1" value="10" />
+                    <TR id="2" value="40" />
+                    <TR id="3" value="30" />
+					<TR id="4" value="1" />
+                </TransformationRatio>
+				<TransformationRatio devGUID = "299">
+                    <TR id="1" value="10" />
+                    <TR id="2" value="80" />
+                    <TR id="3" value="30" />
+					<TR id="4" value="20" />
+                </TransformationRatio>
+                <TransformationRatio devGUID = "300">
+                    <TR id="1" value="10" />
+                    <TR id="2" value="80" />
+                    <TR id="3" value="30" />
+					<TR id="4" value="1" />
+                </TransformationRatio>
+            </Devices>
+        </DevType>
+        <DevType name="BMRZ_VV_14_31_12" groupguid_starting_value="33000" tagguid_starting_value = "330">
+            <NewGroups>
+                <NewGroup name="Первичные значения (расчетные)">
+                    <!--если name пустое - то тег отключен -->
+                    <NewCalculatedTag name="Ia" formula="0 * 1" uom = "А"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="33792"/>
+                        <Tag tagguid="199680"/>
+                        <Tag tagguid="ext" tr_id="2"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Ib"  formula="0 * 1" uom = "А"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="34816"/>
+                        <Tag tagguid="201728"/>
+                        <Tag tagguid="ext" tr_id="2"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Ic"  formula="0 * 1" uom = "А"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="35840"/>
+                        <Tag tagguid="203776"/>
+                        <Tag tagguid="ext" tr_id="2"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="3Uo"  formula="0 * 1 * 2" uom = "кВ"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="37888"/>
+                        <Tag tagguid="207872"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Uab"  formula="0 * 1 * 2" uom = "кВ"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="38912"/>
+                        <Tag tagguid="209920"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Ubc"  formula="0 * 1 * 2" uom = "кВ"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="39936"/>
+                        <Tag tagguid="211968"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Uвнр"  formula="0 * 1 * 2" uom = "кВ"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="40960"/>
+                        <Tag tagguid="214016"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="U2"  formula="0 * 1 * 2" uom = "кВ"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="41984"/>
+                        <Tag tagguid="216064"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="I2"  formula="0 * 1" uom = "А"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="43008"/>
+                        <Tag tagguid="218112"/>
+                        <Tag tagguid="ext" tr_id="2"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Фa^bc"  formula="0 * 1" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="46080"/>
+                        <Tag tagguid="224256"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Фс^ab"  formula="0 * 1" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="48128"/>
+                        <Tag tagguid="228352"/>
+                    </NewCalculatedTag>              
+                    <NewCalculatedTag name="F"  formula="0 * 1" uom = "Гц"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="51200"/>
+                        <Tag tagguid="234496"/>
+                    </NewCalculatedTag>                
+                </NewGroup>
+                <NewGroup name="Вторичные значения (расчетные)">
+                    <!--если name пустое - то тег отключен -->
+                    <NewCalculatedTag name="Ia" formula="0 * 1 / 2" uom = "А"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="33792"/>
+                        <Tag tagguid="199680"/>
+                        <Tag tagguid="ext" tr_id="2"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Ib"  formula="0 * 1 / 2" uom = "А"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="34816"/>
+                        <Tag tagguid="201728"/>
+                        <Tag tagguid="ext" tr_id="2"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Ic"  formula="0 * 1 / 120" uom = "А"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="35840"/>
+                        <Tag tagguid="203776"/>
+                        <Tag tagguid="ext" tr_id="2"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="3Uo"  formula="0 * 1" uom = "В"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="37888"/>
+                        <Tag tagguid="207872"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Uab"  formula="0 * 1" uom = "В"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="38912"/>
+                        <Tag tagguid="209920"/>
+                        <Tag tagguid="ext" tr_id="2"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Ubc"  formula="0 * 1" uom = "В"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="39936"/>
+                        <Tag tagguid="211968"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Uвнр"  formula="0 * 1" uom = "В"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="40960"/>
+                        <Tag tagguid="214016"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="U2"  formula="0 * 1" uom = "В"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="41984"/>
+                        <Tag tagguid="216064"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="I2"  formula="0 * 1 / 2" uom = "А"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="43008"/>
+                        <Tag tagguid="218112"/>
+                        <Tag tagguid="ext" tr_id="2"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Фa^bc"  formula="0 * 1" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="46080"/>
+                        <Tag tagguid="224256"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Фс^ab"  formula="0 * 1" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="48128"/>
+                        <Tag tagguid="228352"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="F"  formula="0 * 1" uom = "Гц"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="51200"/>
+                        <Tag tagguid="234496"/>
+                    </NewCalculatedTag>                
+                </NewGroup>
+                <NewGroup name="Максметр (расчетные)">
+                    <!--если name пустое - то тег отключен -->
+                    <NewCalculatedTag name="Ia" formula="0 * 1" uom = "А"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="142336"/>
+                        <Tag tagguid="199680"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Ib"  formula="0 * 1" uom = "А"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="143360"/>
+                        <Tag tagguid="201728"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Ic"  formula="0 * 1" uom = "А"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="144384"/>
+                        <Tag tagguid="203776"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="3Uo"  formula="0 * 1" uom = "В"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="146432"/>
+                        <Tag tagguid="207872"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                </NewGroup>
+                <NewGroup name="Расчетные дискретные значения">                
+                    <NewCalculatedTag name="БМРЗ исправен" tagguid="400" formula="((!0) &amp; (!1))" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="1574912"/><!--бит 3(11) 1574912-->
+                        <Tag tagguid="1589248"/><!--бит 6(14) 1589248-->
+                     </NewCalculatedTag>
+                    <NewCalculatedTag name="Неисправность БМРЗ" tagguid="401" formula="(0 &amp; (!1))" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="1574912"/><!--бит 3(11) 1574912-->
+                        <Tag tagguid="1589248"/><!--бит 6(14) 1589248-->
+                     </NewCalculatedTag>
+                    <NewCalculatedTag name="Отказ БМРЗ" tagguid="402" formula="((!0) &amp; 1)" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="1574912"/><!--бит 3(11) 1574912-->
+                        <Tag tagguid="1589248"/><!--бит 6(14) 1589248-->
+                     </NewCalculatedTag>
+                    <NewCalculatedTag name="Режим Тест БМРЗ" tagguid="403" formula="0 &amp; 1" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="1574912"/><!--бит 3(11) 1574912-->
+                        <Tag tagguid="1589248"/><!--бит 6(14) 1589248-->
+                     </NewCalculatedTag>
+                </NewGroup>
+            </NewGroups>    
+            <!-- далее перечень устройств на присоединениях и значения соотв коэф трансф -->
+            <Devices>
+                <TransformationRatio devGUID = "261">
+                    <TR id="1" value="0.35" />
+                    <TR id="2" value="120" />                  
+                </TransformationRatio>
+                <TransformationRatio devGUID = "263">
+                    <TR id="1" value="0.35" />
+                    <TR id="2" value="120" />                   
+                </TransformationRatio>
+                <TransformationRatio devGUID = "266">
+                    <TR id="1" value="0.1" />
+                    <TR id="2" value="400" />                   
+                </TransformationRatio>
+                <TransformationRatio devGUID = "267">
+                    <TR id="1" value="0.1" />
+                    <TR id="2" value="400" />                   
+                </TransformationRatio>
+            </Devices>
+        </DevType>
+        <DevType name="BMRZ_СВ_32_12" groupguid_starting_value="33000" tagguid_starting_value = "330">
+            <NewGroups>
+                <NewGroup name="Первичные значения (расчетные)">
+                    <!--если name пустое - то тег отключен -->
+                    <NewCalculatedTag name="Ia" formula="0 * 1" uom = "А"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="33792"/>
+                        <Tag tagguid="199680"/>
+                        <Tag tagguid="ext" tr_id="2"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Ib"  formula="0 * 1" uom = "А"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="34816"/>
+                        <Tag tagguid="201728"/>
+                        <Tag tagguid="ext" tr_id="2"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Ic"  formula="0 * 1" uom = "А"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="35840"/>
+                        <Tag tagguid="203776"/>
+                        <Tag tagguid="ext" tr_id="2"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Ubc2"  formula="0 * 1 * 2" uom = "кВ"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="36864"/>
+                        <Tag tagguid="205824"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Uab2"  formula="0 * 1 * 2" uom = "кВ"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="37888"/>
+                        <Tag tagguid="207872"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Uab1"  formula="0 * 1 * 2" uom = "кВ"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="38912"/>
+                        <Tag tagguid="209920"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Ubc1"  formula="0 * 1 * 2" uom = "кВ"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="39936"/>
+                        <Tag tagguid="211968"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="3Uo"  formula="0 * 1 * 2" uom = "кВ"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="40960"/>
+                        <Tag tagguid="214016"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="1U2"  formula="0 * 1 * 2" uom = "кВ"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="41984"/>
+                        <Tag tagguid="216064"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="I2"  formula="0 * 1" uom = "А"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="43008"/>
+                        <Tag tagguid="218112"/>
+                        <Tag tagguid="ext" tr_id="2"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="S"  formula="0 * 1" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="46080"/>
+                        <Tag tagguid="224256"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="P"  formula="0 * 1" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="47104"/>
+                        <Tag tagguid="226304"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="ФUab1^Uab2"  formula="0 * 1" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="48128"/>
+                        <Tag tagguid="228352"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="2U2"  formula="0 * 1 * 2" uom = "кВ"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="49152"/>
+                        <Tag tagguid="230400"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="cosФ"  formula="0 * 1" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="50176"/>
+                        <Tag tagguid="232448"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="F"  formula="0 * 1" uom = "Гц"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="51200"/>
+                        <Tag tagguid="234496"/>
+                    </NewCalculatedTag>                
+                </NewGroup>
+                <NewGroup name="Вторичные значения (расчетные)">
+                    <!--если name пустое - то тег отключен -->
+                    <NewCalculatedTag name="Ia" formula="0 * 1 / 2" uom = "А"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="33792"/>
+                        <Tag tagguid="199680"/>
+                        <Tag tagguid="ext" tr_id="2"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Ib"  formula="0 * 1 / 2" uom = "А"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="34816"/>
+                        <Tag tagguid="201728"/>
+                        <Tag tagguid="ext" tr_id="2"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Ic"  formula="0 * 1 / 2" uom = "А"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="35840"/>
+                        <Tag tagguid="203776"/>
+                        <Tag tagguid="ext" tr_id="2"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Ubc2"  formula="0 * 1" uom = "В"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="36864"/>
+                        <Tag tagguid="205824"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Uab2"  formula="0 * 1" uom = "В"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="37888"/>
+                        <Tag tagguid="207872"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Uab1"  formula="0 * 1" uom = "В"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="38912"/>
+                        <Tag tagguid="209920"/>
+                        <Tag tagguid="ext" tr_id="2"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Ubc1"  formula="0 * 1" uom = "В"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="39936"/>
+                        <Tag tagguid="211968"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="3Uo"  formula="0 * 1" uom = "В"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="40960"/>
+                        <Tag tagguid="214016"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="1U2"  formula="0 * 1" uom = "В"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="41984"/>
+                        <Tag tagguid="216064"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="I2"  formula="0 * 1 / 2" uom = "А"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="43008"/>
+                        <Tag tagguid="218112"/>
+                        <Tag tagguid="ext" tr_id="2"/>
+                    </NewCalculatedTag> 
+                    <NewCalculatedTag name="S"  formula="0 * 1" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="46080"/>
+                        <Tag tagguid="224256"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="P"  formula="0 * 1" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="47104"/>
+                        <Tag tagguid="226304"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="ФUab1^Uab2"  formula="0 * 1" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="48128"/>
+                        <Tag tagguid="228352"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="2U2"  formula="0 * 1" uom = "В"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="49152"/>
+                        <Tag tagguid="230400"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="cosФ"  formula="0 * 1" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="50176"/>
+                        <Tag tagguid="232448"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="F"  formula="0 * 1" uom = "Гц"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="51200"/>
+                        <Tag tagguid="234496"/>
+                    </NewCalculatedTag>                
+                </NewGroup>
+                <NewGroup name="Максметр (расчетные)">
+                    <!--если name пустое - то тег отключен -->
+                    <NewCalculatedTag name="Ia" formula="0 * 1" uom = "А"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="142336"/>
+                        <Tag tagguid="199680"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Ib"  formula="0 * 1" uom = "А"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="143360"/>
+                        <Tag tagguid="201728"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Ic"  formula="0 * 1" uom = "А"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="144384"/>
+                        <Tag tagguid="203776"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="3Uo"  formula="0 * 1" uom = "В"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="146432"/>
+                        <Tag tagguid="214016"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                </NewGroup>
+                <NewGroup name="Расчетные дискретные значения">
+                    <NewCalculatedTag name="БМРЗ исправен" tagguid="400" formula="((!0) &amp; (!1))" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="1574912"/><!--бит 3(11) 1574912-->
+                        <Tag tagguid="1589248"/><!--бит 6(14) 1589248-->
+                     </NewCalculatedTag>
+                    <NewCalculatedTag name="Неисправность БМРЗ" tagguid="401" formula="(0 &amp; (!1))" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="1574912"/><!--бит 3(11) 1574912-->
+                        <Tag tagguid="1589248"/><!--бит 6(14) 1589248-->
+                     </NewCalculatedTag>
+                    <NewCalculatedTag name="Отказ БМРЗ" tagguid="402" formula="((!0) &amp; 1)" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="1574912"/><!--бит 3(11) 1574912-->
+                        <Tag tagguid="1589248"/><!--бит 6(14) 1589248-->
+                     </NewCalculatedTag>
+                    <NewCalculatedTag name="Режим Тест БМРЗ" tagguid="403" formula="0 &amp; 1" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="1574912"/><!--бит 3(11) 1574912-->
+                        <Tag tagguid="1589248"/><!--бит 6(14) 1589248-->
+                     </NewCalculatedTag>
+                </NewGroup>
+            </NewGroups>    
+            <!-- далее перечень устройств на присоединениях и значения соотв коэф трансф -->
+            <Devices>
+                <TransformationRatio devGUID = "262">
+                    <TR id="1" value="0.35" />
+                    <TR id="2" value="120" />
+                </TransformationRatio>
+                <TransformationRatio devGUID = "264">
+                    <TR id="1" value="0.1" />
+                    <TR id="2" value="400" />
+                </TransformationRatio>
+                <TransformationRatio devGUID = "265">
+                    <TR id="1" value="0.1" />
+                    <TR id="2" value="400" />
+                </TransformationRatio>
+            </Devices>
+        </DevType>
+        <DevType name="BMCS_10" groupguid_starting_value="33000" tagguid_starting_value = "330">
+            <NewGroups>
+                <NewGroup name="Состояние индикации (Расчетные аналоговые значения)">
+                    <!--если name пустое - то тег отключен -->
+                    <!--
+                        состояние индикации - аналог со значением:
+                        1 3 5 7 - Признак неисправности канала “n”. Соответствующий ему СД мигает с частотой порядка 5 Гц (быстрое мигание)
+                        2 6 - Признак получения каналом “n” аварийного сигнала. Соот-ветствующий ему СД мигает с частотой порядка 2,5 Гц (медленное мигание) до получения сигнала квитирования
+                        4 - Признак наличия сигнала в канале “n”. Соответствующий ему СД светится
+                        0 - Признак отсутствия сигнала в канале “n”. Соответствующий ему СД не светится
+                    -->
+                    <NewCalculatedTag name="Вход 1" formula="(0 * 5) + (1 * 4) + (2 * 3)" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="7340288"/><!--0-->
+                        <Tag tagguid="7536896"/><!--1-->
+                        <Tag tagguid="7733504"/><!--2-->
+                        <Tag tagguid="ext" tr_id="1"/><!--3-->
+                        <Tag tagguid="ext" tr_id="2"/><!--4-->
+                        <Tag tagguid="ext" tr_id="3"/><!--5-->
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Вход 2" formula="(0 * 5) + (1 * 4) + (2 * 3)" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="7340544"/><!--0-->
+                        <Tag tagguid="7537152"/><!--1-->
+                        <Tag tagguid="7733760"/><!--2-->
+                        <Tag tagguid="ext" tr_id="1"/><!--3-->
+                        <Tag tagguid="ext" tr_id="2"/><!--4-->
+                        <Tag tagguid="ext" tr_id="3"/><!--5-->
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Вход 3" formula="(0 * 5) + (1 * 4) + (2 * 3)" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="7341056"/><!--0-->
+                        <Tag tagguid="7537664"/><!--1-->
+                        <Tag tagguid="7734272"/><!--2-->
+                        <Tag tagguid="ext" tr_id="1"/><!--3-->
+                        <Tag tagguid="ext" tr_id="2"/><!--4-->
+                        <Tag tagguid="ext" tr_id="3"/><!--5-->
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Вход 4" formula="(0 * 5) + (1 * 4) + (2 * 3)" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="7342080"/><!--0-->
+                        <Tag tagguid="7538688"/><!--1-->
+                        <Tag tagguid="7735296"/><!--2-->
+                        <Tag tagguid="ext" tr_id="1"/><!--3-->
+                        <Tag tagguid="ext" tr_id="2"/><!--4-->
+                        <Tag tagguid="ext" tr_id="3"/><!--5-->
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Вход 5" formula="(0 * 5) + (1 * 4) + (2 * 3)" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="7344128"/><!--0-->
+                        <Tag tagguid="7540736"/><!--1-->
+                        <Tag tagguid="7737344"/><!--2-->
+                        <Tag tagguid="ext" tr_id="1"/><!--3-->
+                        <Tag tagguid="ext" tr_id="2"/><!--4-->
+                        <Tag tagguid="ext" tr_id="3"/><!--5-->
+                    </NewCalculatedTag>
+                    <NewCalculatedTag name="Вход 6" formula="(0 * 5) + (1 * 4) + (2 * 3)" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="7348224"/><!--0-->
+                        <Tag tagguid="7544832"/><!--1-->
+                        <Tag tagguid="7741440"/><!--2-->
+                        <Tag tagguid="ext" tr_id="1"/><!--3-->
+                        <Tag tagguid="ext" tr_id="2"/><!--4-->
+                        <Tag tagguid="ext" tr_id="3"/><!--5-->
+                    </NewCalculatedTag>
+                    <NewCalculatedTag name="Вход 7" formula="(0 * 5) + (1 * 4) + (2 * 3)" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="7356416"/><!--0-->
+                        <Tag tagguid="7553024"/><!--1-->
+                        <Tag tagguid="7749632"/><!--2-->
+                        <Tag tagguid="ext" tr_id="1"/><!--3-->
+                        <Tag tagguid="ext" tr_id="2"/><!--4-->
+                        <Tag tagguid="ext" tr_id="3"/><!--5-->
+                    </NewCalculatedTag>
+                    <NewCalculatedTag name="Вход 8" formula="(0 * 5) + (1 * 4) + (2 * 3)" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="7372800"/><!--0-->
+                        <Tag tagguid="7569408"/><!--1-->
+                        <Tag tagguid="7766016"/><!--2-->
+                        <Tag tagguid="ext" tr_id="1"/><!--3-->
+                        <Tag tagguid="ext" tr_id="2"/><!--4-->
+                        <Tag tagguid="ext" tr_id="3"/><!--5-->
+                    </NewCalculatedTag>
+                    <NewCalculatedTag name="Вход 9" formula="(0 * 5) + (1 * 4) + (2 * 3)" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="7340033"/><!--0-->
+                        <Tag tagguid="7536641"/><!--1-->
+                        <Tag tagguid="7733249"/><!--2-->
+                        <Tag tagguid="ext" tr_id="1"/><!--3-->
+                        <Tag tagguid="ext" tr_id="2"/><!--4-->
+                        <Tag tagguid="ext" tr_id="3"/><!--5-->
+                    </NewCalculatedTag>
+                    <NewCalculatedTag name="Вход 10" formula="(0 * 5) + (1 * 4) + (2 * 3)" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="7340034"/><!--0-->
+                        <Tag tagguid="7536642"/><!--1-->
+                        <Tag tagguid="7733250"/><!--2-->
+                        <Tag tagguid="ext" tr_id="1"/><!--3-->
+                        <Tag tagguid="ext" tr_id="2"/><!--4-->
+                        <Tag tagguid="ext" tr_id="3"/><!--5-->
+                    </NewCalculatedTag>
+                    <NewCalculatedTag name="Вход 11" formula="(0 * 5) + (1 * 4) + (2 * 3)" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="7340036"/><!--0-->
+                        <Tag tagguid="7536644"/><!--1-->
+                        <Tag tagguid="7733252"/><!--2-->
+                        <Tag tagguid="ext" tr_id="1"/><!--3-->
+                        <Tag tagguid="ext" tr_id="2"/><!--4-->
+                        <Tag tagguid="ext" tr_id="3"/><!--5-->
+                    </NewCalculatedTag>
+                    <NewCalculatedTag name="Вход 12" formula="(0 * 5) + (1 * 4) + (2 * 3)" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="7340040"/><!--0-->
+                        <Tag tagguid="7536648"/><!--1-->
+                        <Tag tagguid="7733256"/><!--2-->
+                        <Tag tagguid="ext" tr_id="1"/><!--3-->
+                        <Tag tagguid="ext" tr_id="2"/><!--4-->
+                        <Tag tagguid="ext" tr_id="3"/><!--5-->
+                    </NewCalculatedTag>
+                    <NewCalculatedTag name="Вход 13" formula="(0 * 5) + (1 * 4) + (2 * 3)" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="7340048"/><!--0-->
+                        <Tag tagguid="7536656"/><!--1-->
+                        <Tag tagguid="7733264"/><!--2-->
+                        <Tag tagguid="ext" tr_id="1"/><!--3-->
+                        <Tag tagguid="ext" tr_id="2"/><!--4-->
+                        <Tag tagguid="ext" tr_id="3"/><!--5-->
+                    </NewCalculatedTag>
+                    <NewCalculatedTag name="Вход 14" formula="(0 * 5) + (1 * 4) + (2 * 3)" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="7340064"/><!--0-->
+                        <Tag tagguid="7536672"/><!--1-->
+                        <Tag tagguid="7733280"/><!--2-->
+                        <Tag tagguid="ext" tr_id="1"/><!--3-->
+                        <Tag tagguid="ext" tr_id="2"/><!--4-->
+                        <Tag tagguid="ext" tr_id="3"/><!--5-->
+                    </NewCalculatedTag>
+                    <NewCalculatedTag name="Вход 15" formula="(0 * 5) + (1 * 4) + (2 * 3)" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="7340096"/><!--0-->
+                        <Tag tagguid="7536704"/><!--1-->
+                        <Tag tagguid="7733312"/><!--2-->
+                        <Tag tagguid="ext" tr_id="1"/><!--3-->
+                        <Tag tagguid="ext" tr_id="2"/><!--4-->
+                        <Tag tagguid="ext" tr_id="3"/><!--5-->
+                    </NewCalculatedTag>
+                    <NewCalculatedTag name="Вход 16" formula="(0 * 5) + (1 * 4) + (2 * 3)" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="7340160"/><!--0-->
+                        <Tag tagguid="7536768"/><!--1-->
+                        <Tag tagguid="7733376"/><!--2-->
+                        <Tag tagguid="ext" tr_id="1"/><!--3-->
+                        <Tag tagguid="ext" tr_id="2"/><!--4-->
+                        <Tag tagguid="ext" tr_id="3"/><!--5-->
+                    </NewCalculatedTag>
+                    <NewCalculatedTag name="Вход 17" formula="(0 * 5) + (1 * 4) + (2 * 3)" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="7405824"/><!--0-->
+                        <Tag tagguid="7602432"/><!--1-->
+                        <Tag tagguid="7799040"/><!--2-->
+                        <Tag tagguid="ext" tr_id="1"/><!--3-->
+                        <Tag tagguid="ext" tr_id="2"/><!--4-->
+                        <Tag tagguid="ext" tr_id="3"/><!--5-->
+                    </NewCalculatedTag>
+                    <NewCalculatedTag name="Вход 18" formula="(0 * 5) + (1 * 4) + (2 * 3)" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="7406080"/><!--0-->
+                        <Tag tagguid="7602688"/><!--1-->
+                        <Tag tagguid="7799296"/><!--2-->
+                        <Tag tagguid="ext" tr_id="1"/><!--3-->
+                        <Tag tagguid="ext" tr_id="2"/><!--4-->
+                        <Tag tagguid="ext" tr_id="3"/><!--5-->
+                    </NewCalculatedTag>
+                    <NewCalculatedTag name="Вход 19" formula="(0 * 5) + (1 * 4) + (2 * 3)" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="7406592"/><!--0-->
+                        <Tag tagguid="7603200"/><!--1-->
+                        <Tag tagguid="7799808"/><!--2-->
+                        <Tag tagguid="ext" tr_id="1"/><!--3-->
+                        <Tag tagguid="ext" tr_id="2"/><!--4-->
+                        <Tag tagguid="ext" tr_id="3"/><!--5-->
+                    </NewCalculatedTag>
+                    <NewCalculatedTag name="Вход 20" formula="(0 * 5) + (1 * 4) + (2 * 3)" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="7407616"/><!--0-->
+                        <Tag tagguid="7604224"/><!--1-->
+                        <Tag tagguid="7800832"/><!--2-->
+                        <Tag tagguid="ext" tr_id="1"/><!--3-->
+                        <Tag tagguid="ext" tr_id="2"/><!--4-->
+                        <Tag tagguid="ext" tr_id="3"/><!--5-->
+                    </NewCalculatedTag>
+                    <NewCalculatedTag name="Вход 21" formula="(0 * 5) + (1 * 4) + (2 * 3)" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="7409664"/><!--0-->
+                        <Tag tagguid="7606272"/><!--1-->
+                        <Tag tagguid="7802880"/><!--2-->
+                        <Tag tagguid="ext" tr_id="1"/><!--3-->
+                        <Tag tagguid="ext" tr_id="2"/><!--4-->
+                        <Tag tagguid="ext" tr_id="3"/><!--5-->
+                    </NewCalculatedTag>
+                    <NewCalculatedTag name="Вход 22" formula="(0 * 5) + (1 * 4) + (2 * 3)" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="7340036"/><!--0-->
+                        <Tag tagguid="7610368"/><!--1-->
+                        <Tag tagguid="7806976"/><!--2-->
+                        <Tag tagguid="ext" tr_id="1"/><!--3-->
+                        <Tag tagguid="ext" tr_id="2"/><!--4-->
+                        <Tag tagguid="ext" tr_id="3"/><!--5-->
+                    </NewCalculatedTag>
+                    <NewCalculatedTag name="Вход 23" formula="(0 * 5) + (1 * 4) + (2 * 3)" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="7421952"/><!--0-->
+                        <Tag tagguid="7618560"/><!--1-->
+                        <Tag tagguid="7815168"/><!--2-->
+                        <Tag tagguid="ext" tr_id="1"/><!--3-->
+                        <Tag tagguid="ext" tr_id="2"/><!--4-->
+                        <Tag tagguid="ext" tr_id="3"/><!--5-->
+                    </NewCalculatedTag>
+                    <NewCalculatedTag name="Вход 24" formula="(0 * 5) + (1 * 4) + (2 * 3)" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="7438336"/><!--0-->
+                        <Tag tagguid="7634944"/><!--1-->
+                        <Tag tagguid="7831552"/><!--2-->
+                        <Tag tagguid="ext" tr_id="1"/><!--3-->
+                        <Tag tagguid="ext" tr_id="2"/><!--4-->
+                        <Tag tagguid="ext" tr_id="3"/><!--5-->
+                    </NewCalculatedTag>
+                    <NewCalculatedTag name="Вход 25" formula="(0 * 5) + (1 * 4) + (2 * 3)" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="7405569"/><!--0-->
+                        <Tag tagguid="7602177"/><!--1-->
+                        <Tag tagguid="7798785"/><!--2-->
+                        <Tag tagguid="ext" tr_id="1"/><!--3-->
+                        <Tag tagguid="ext" tr_id="2"/><!--4-->
+                        <Tag tagguid="ext" tr_id="3"/><!--5-->
+                    </NewCalculatedTag>
+                    <NewCalculatedTag name="Вход 26" formula="(0 * 5) + (1 * 4) + (2 * 3)" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="7405570"/><!--0-->
+                        <Tag tagguid="7602178"/><!--1-->
+                        <Tag tagguid="7798786"/><!--2-->
+                        <Tag tagguid="ext" tr_id="1"/><!--3-->
+                        <Tag tagguid="ext" tr_id="2"/><!--4-->
+                        <Tag tagguid="ext" tr_id="3"/><!--5-->
+                    </NewCalculatedTag>
+                    <NewCalculatedTag name="Вход 27" formula="(0 * 5) + (1 * 4) + (2 * 3)" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="7405572"/><!--0-->
+                        <Tag tagguid="7602180"/><!--1-->
+                        <Tag tagguid="7798788"/><!--2-->
+                        <Tag tagguid="ext" tr_id="1"/><!--3-->
+                        <Tag tagguid="ext" tr_id="2"/><!--4-->
+                        <Tag tagguid="ext" tr_id="3"/><!--5-->
+                    </NewCalculatedTag>
+                    <NewCalculatedTag name="Вход 28" formula="(0 * 5) + (1 * 4) + (2 * 3)" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="7405576"/><!--0-->
+                        <Tag tagguid="7602184"/><!--1-->
+                        <Tag tagguid="7798792"/><!--2-->
+                        <Tag tagguid="ext" tr_id="1"/><!--3-->
+                        <Tag tagguid="ext" tr_id="2"/><!--4-->
+                        <Tag tagguid="ext" tr_id="3"/><!--5-->
+                    </NewCalculatedTag>
+                    <NewCalculatedTag name="Вход 29" formula="(0 * 5) + (1 * 4) + (2 * 3)" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="7405584"/><!--0-->
+                        <Tag tagguid="7602192"/><!--1-->
+                        <Tag tagguid="7798800"/><!--2-->
+                        <Tag tagguid="ext" tr_id="1"/><!--3-->
+                        <Tag tagguid="ext" tr_id="2"/><!--4-->
+                        <Tag tagguid="ext" tr_id="3"/><!--5-->
+                    </NewCalculatedTag>
+                    <NewCalculatedTag name="Вход 30" formula="(0 * 5) + (1 * 4) + (2 * 3)" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="7405600"/><!--0-->
+                        <Tag tagguid="7602208"/><!--1-->
+                        <Tag tagguid="7798816"/><!--2-->
+                        <Tag tagguid="ext" tr_id="1"/><!--3-->
+                        <Tag tagguid="ext" tr_id="2"/><!--4-->
+                        <Tag tagguid="ext" tr_id="3"/><!--5-->
+                    </NewCalculatedTag>
+                    <NewCalculatedTag name="Вход 31" formula="(0 * 5) + (1 * 4) + (2 * 3)" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="7798816"/><!--0-->
+                        <Tag tagguid="7602240"/><!--1-->
+                        <Tag tagguid="7798848"/><!--2-->
+                        <Tag tagguid="ext" tr_id="1"/><!--3-->
+                        <Tag tagguid="ext" tr_id="2"/><!--4-->
+                        <Tag tagguid="ext" tr_id="3"/><!--5-->
+                    </NewCalculatedTag>
+                    <NewCalculatedTag name="Вход 32" formula="(0 * 5) + (1 * 4) + (2 * 3)" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="7405696"/><!--0-->
+                        <Tag tagguid="7602304"/><!--1-->
+                        <Tag tagguid="7798912"/><!--2-->
+                        <Tag tagguid="ext" tr_id="1"/><!--3-->
+                        <Tag tagguid="ext" tr_id="2"/><!--4-->
+                        <Tag tagguid="ext" tr_id="3"/><!--5-->
+                    </NewCalculatedTag>
+                    <NewCalculatedTag name="КИС-1" formula="(0 * 5) + (1 * 4) + (2 * 3)" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="7471360"/><!--0-->
+                        <Tag tagguid="7667968"/><!--1-->
+                        <Tag tagguid="7864576"/><!--2-->
+                        <Tag tagguid="ext" tr_id="1"/><!--3-->
+                        <Tag tagguid="ext" tr_id="2"/><!--4-->
+                        <Tag tagguid="ext" tr_id="3"/><!--5-->
+                    </NewCalculatedTag>
+                    <NewCalculatedTag name="КИС-2" formula="(0 * 5) + (1 * 4) + (2 * 3)" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="7471616"/><!--0-->
+                        <Tag tagguid="7668224"/><!--1-->
+                        <Tag tagguid="7864832"/><!--2-->
+                        <Tag tagguid="ext" tr_id="1"/><!--3-->
+                        <Tag tagguid="ext" tr_id="2"/><!--4-->
+                        <Tag tagguid="ext" tr_id="3"/><!--5-->
+                    </NewCalculatedTag>
+                    <NewCalculatedTag name="КИС-3" formula="(0 * 5) + (1 * 4) + (2 * 3)" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="7472128"/><!--0-->
+                        <Tag tagguid="7668736"/><!--1-->
+                        <Tag tagguid="7865344"/><!--2-->
+                        <Tag tagguid="ext" tr_id="1"/><!--3-->
+                        <Tag tagguid="ext" tr_id="2"/><!--4-->
+                        <Tag tagguid="ext" tr_id="3"/><!--5-->
+                    </NewCalculatedTag>
+                    <NewCalculatedTag name="КИС-4" formula="(0 * 5) + (1 * 4) + (2 * 3)" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="7473152"/><!--0-->
+                        <Tag tagguid="7669760"/><!--1-->
+                        <Tag tagguid="7866368"/><!--2-->
+                        <Tag tagguid="ext" tr_id="1"/><!--3-->
+                        <Tag tagguid="ext" tr_id="2"/><!--4-->
+                        <Tag tagguid="ext" tr_id="3"/><!--5-->
+                    </NewCalculatedTag>
+                  
+                </NewGroup>
+            </NewGroups>    
+            <!-- далее перечень устройств на присоединениях и значения соотв коэф трансф -->
+            <Devices>
+                <TransformationRatio devGUID = "277">
+                    <TR id="1" value="1" />
+                    <TR id="2" value="2" />
+                    <TR id="3" value="4" />
+                </TransformationRatio>
+                <TransformationRatio devGUID = "278">
+                    <TR id="1" value="1" />
+                    <TR id="2" value="2" />
+                    <TR id="3" value="4" />
+                </TransformationRatio>
+            </Devices>
+        </DevType>
+        <DevType name="BMRZ_DZ_01_11" groupguid_starting_value="33000" tagguid_starting_value = "330">
+            <NewGroups>
+                <NewGroup name="Первичные значения (расчетные)">
+                    <!--если name пустое - то тег отключен -->
+                    <NewCalculatedTag name="Ia" formula="0 * 1" uom = "А"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="33792"/>
+                        <Tag tagguid="199680"/>
+                        <Tag tagguid="ext" tr_id="2"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Iв"  formula="0 * 1" uom = "А"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="34816"/>
+                        <Tag tagguid="201728"/>
+                        <Tag tagguid="ext" tr_id="2"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Ic"  formula="0 * 1" uom = "А"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="35840"/>
+                        <Tag tagguid="203776"/>
+                        <Tag tagguid="ext" tr_id="2"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Uни"  formula="0 * 1 * 2" uom = "В"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="36864"/>
+                        <Tag tagguid="205824"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Uик"  formula="0 * 1 * 2" uom = "В"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="37888"/>
+                        <Tag tagguid="207872"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Uaо"  formula="0 * 1 * 2" uom = "В"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="38912"/>
+                        <Tag tagguid="209920"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Ubо"  formula="0 * 1 * 2" uom = "В"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="39936"/>
+                        <Tag tagguid="211968"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Uсо"  formula="0 * 1 * 2" uom = "В"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="40960"/>
+                        <Tag tagguid="214016"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="3Uо"  formula="0 * 1 * 2" uom = "В"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="41984"/>
+                        <Tag tagguid="216064"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="U2"  formula="0 * 1 * 2" uom = "В"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="43008"/>
+                        <Tag tagguid="218112"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="I2"  formula="0 * 1" uom = "А"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="44032"/>
+                        <Tag tagguid="220160"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Zab"  formula="0 * 1" uom = "Ом"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="45056"/>
+                        <Tag tagguid="222208"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Фab"  formula="0 * 1" uom = "Гр"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="46080"/>
+                        <Tag tagguid="224256"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Zbс"  formula="0 * 1" uom = "Ом"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="47104"/>
+                        <Tag tagguid="226304"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Фbс"  formula="0 * 1" uom = "Гр"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="48128"/>
+                        <Tag tagguid="228352"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Zса"  formula="0 * 1" uom = "Ом"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="49152"/>
+                        <Tag tagguid="230400"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Фса"  formula="0 * 1" uom = "Гр"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="50176"/>
+                        <Tag tagguid="232448"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Zао"  formula="0 * 1" uom = "Ом"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="51200"/>
+                        <Tag tagguid="234496"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Фао"  formula="0 * 1" uom = "Гр"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="52224"/>
+                        <Tag tagguid="236544"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Zbо"  formula="0 * 1" uom = "Ом"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="53248"/>
+                        <Tag tagguid="238592"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Фbо"  formula="0 * 1" uom = "Гр"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="54272"/>
+                        <Tag tagguid="240640"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Zсо"  formula="0 * 1" uom = "Ом"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="55296"/>
+                        <Tag tagguid="242688"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Фсо"  formula="0 * 1" uom = "Гр"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="56320"/>
+                        <Tag tagguid="244736"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="F"  formula="0 * 1" uom = "Гц"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="57344"/>
+                        <Tag tagguid="246784"/>
+                    </NewCalculatedTag>                
+                </NewGroup>
+                <NewGroup name="Вторичные значения (расчетные)">
+                    <!--если name пустое - то тег отключен -->
+                    <NewCalculatedTag name="Ia" formula="0 * 1 / 2" uom = "А"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="33792"/>
+                        <Tag tagguid="199680"/>
+                        <Tag tagguid="ext" tr_id="2"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Iв"  formula="0 * 1 / 2" uom = "А"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="34816"/>
+                        <Tag tagguid="201728"/>
+                        <Tag tagguid="ext" tr_id="2"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Ic"  formula="0 * 1 / 2" uom = "А"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="35840"/>
+                        <Tag tagguid="203776"/>
+                        <Tag tagguid="ext" tr_id="2"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Uни"  formula="0 * 1" uom = "В"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="36864"/>
+                        <Tag tagguid="205824"/>
+                        <Tag tagguid="ext" tr_id="2"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Uик"  formula="0 * 1" uom = "В"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="37888"/>
+                        <Tag tagguid="207872"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Uaо"  formula="0 * 1" uom = "В"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="38912"/>
+                        <Tag tagguid="209920"/>
+                        <Tag tagguid="ext" tr_id="2"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Ubо"  formula="0 * 1" uom = "В"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="39936"/>
+                        <Tag tagguid="211968"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Uсо"  formula="0 * 1" uom = "В"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="40960"/>
+                        <Tag tagguid="214016"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="3Uо"  formula="0 * 1" uom = "В"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="41984"/>
+                        <Tag tagguid="216064"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="U2"  formula="0 * 1" uom = "В"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="43008"/>
+                        <Tag tagguid="218112"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="I2"  formula="0 * 1 / 2" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="44032"/>
+                        <Tag tagguid="220160"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Zab"  formula="0 * 1" uom = "Ом"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="45056"/>
+                        <Tag tagguid="222208"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Фab"  formula="0 * 1" uom = "Гр"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="46080"/>
+                        <Tag tagguid="224256"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Zbс"  formula="0 * 1" uom = "Ом"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="47104"/>
+                        <Tag tagguid="226304"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Фbс"  formula="0 * 1" uom = "Гр"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="48128"/>
+                        <Tag tagguid="228352"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Zса"  formula="0 * 1" uom = "Ом"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="49152"/>
+                        <Tag tagguid="230400"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Фса"  formula="0 * 1" uom = "Гр"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="50176"/>
+                        <Tag tagguid="232448"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Zао"  formula="0 * 1" uom = "Ом"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="51200"/>
+                        <Tag tagguid="234496"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Фао"  formula="0 * 1" uom = "Гр"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="52224"/>
+                        <Tag tagguid="236544"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Zbо"  formula="0 * 1" uom = "Ом"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="53248"/>
+                        <Tag tagguid="238592"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Фbо"  formula="0 * 1" uom = "Гр"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="54272"/>
+                        <Tag tagguid="240640"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Zсо"  formula="0 * 1" uom = "Ом"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="55296"/>
+                        <Tag tagguid="242688"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Фсо"  formula="0 * 1" uom = "Гр"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="56320"/>
+                        <Tag tagguid="244736"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="F"  formula="0 * 1" uom = "Гц"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="57344"/>
+                        <Tag tagguid="246784"/>
+                    </NewCalculatedTag>                
+                </NewGroup>
+                <NewGroup name="Максметр (расчетные)">
+                    <!--если name пустое - то тег отключен -->
+                    <NewCalculatedTag name="Ia" formula="0 * 1" uom = "А"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="142336"/>
+                        <Tag tagguid="199680"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Iв"  formula="0 * 1" uom = "А"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="143360"/>
+                        <Tag tagguid="201728"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Ic"  formula="0 * 1" uom = "А"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="144384"/>
+                        <Tag tagguid="203776"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                </NewGroup>
+                <NewGroup name="Расчетные дискретные значения">
+                    <NewCalculatedTag name="БМРЗ исправен" tagguid="400" formula="((!0) &amp; (!1))" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="1574912"/><!--бит 3(11) 1574912-->
+                        <Tag tagguid="1589248"/><!--бит 6(14) 1589248-->
+                     </NewCalculatedTag>
+                    <NewCalculatedTag name="Неисправность БМРЗ" tagguid="401" formula="(0 &amp; (!1))" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="1574912"/><!--бит 3(11) 1574912-->
+                        <Tag tagguid="1589248"/><!--бит 6(14) 1589248-->
+                     </NewCalculatedTag>
+                    <NewCalculatedTag name="Отказ БМРЗ" tagguid="402" formula="((!0) &amp; 1)" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="1574912"/><!--бит 3(11) 1574912-->
+                        <Tag tagguid="1589248"/><!--бит 6(14) 1589248-->
+                     </NewCalculatedTag>
+                    <NewCalculatedTag name="Режим Тест БМРЗ" tagguid="403" formula="0 &amp; 1" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="1574912"/><!--бит 3(11) 1574912-->
+                        <Tag tagguid="1589248"/><!--бит 6(14) 1589248-->
+                     </NewCalculatedTag>
+                </NewGroup>
+            </NewGroups>    
+            <!-- далее перечень устройств на присоединениях и значения соотв коэф трансф -->
+            <Devices>
+                <TransformationRatio devGUID = "268">
+                    <TR id="1" value="0.35" />
+                    <TR id="2" value="120" />
+                </TransformationRatio>
+                <TransformationRatio devGUID = "269">
+                    <TR id="1" value="0.35" />
+                    <TR id="2" value="120" />
+                </TransformationRatio>
+                <TransformationRatio devGUID = "270">
+                    <TR id="1" value="0.35" />
+                    <TR id="2" value="120" />
+                </TransformationRatio>
+                <TransformationRatio devGUID = "271">
+                    <TR id="1" value="0.35" />
+                    <TR id="2" value="120" />
+                </TransformationRatio>
+                <TransformationRatio devGUID = "275">
+                    <TR id="1" value="0.35" />
+                    <TR id="2" value="120" />
+                </TransformationRatio>
+                <TransformationRatio devGUID = "276">
+                    <TR id="1" value="0.35" />
+                    <TR id="2" value="120" />
+                </TransformationRatio>
+            </Devices>
+        </DevType>
+        <DevType name="BMRZ_DZSH_02_12" groupguid_starting_value="33000" tagguid_starting_value = "330">
+            <NewGroups>
+                <NewGroup name="Первичные значения (расчетные)">
+                    <!--если name пустое - то тег отключен -->
+                    <NewCalculatedTag name="I1" formula="0 * 1" uom = "A"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="33792"/>
+                        <Tag tagguid="199680"/>
+                        <Tag tagguid="ext" tr_id="2"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="I2"  formula="0 * 1" uom = "A"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="34816"/>
+                        <Tag tagguid="201728"/>
+                        <Tag tagguid="ext" tr_id="2"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="I3"  formula="0 * 1 * 2" uom = "A"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="35840"/>
+                        <Tag tagguid="203776"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="I4"  formula="0 * 1 * 2" uom = "A"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="36864"/>
+                        <Tag tagguid="205824"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="I5"  formula="0 * 1 * 2" uom = "A"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="37888"/>
+                        <Tag tagguid="207872"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="I6"  formula="0 * 1 * 2" uom = "A"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="38912"/>
+                        <Tag tagguid="209920"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="I7"  formula="0 * 1 * 2" uom = "A"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="39936"/>
+                        <Tag tagguid="211968"/>
+                        <Tag tagguid="ext" tr_id="2"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="I8"  formula="0 * 1 * 2" uom = "A"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="40960"/>
+                        <Tag tagguid="214016"/>
+                        <Tag tagguid="ext" tr_id="2"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="I9"  formula="0 * 1 * 2" uom = "A"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="41984"/>
+                        <Tag tagguid="216064"/>
+                        <Tag tagguid="ext" tr_id="3"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="I10"  formula="0 * 1 * 2" uom = "A"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="43008"/>
+                        <Tag tagguid="218112"/>
+                        <Tag tagguid="ext" tr_id="3"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="I11"  formula="0 * 1 * 2" uom = "A"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="44032"/>
+                        <Tag tagguid="220160"/>
+                        <Tag tagguid="ext" tr_id="3"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="I12"  formula="0 * 1 * 2" uom = "A"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="45056"/>
+                        <Tag tagguid="222208"/>
+                        <Tag tagguid="ext" tr_id="3"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Uab=Ic.ш."  formula="0 * 1 * 2" uom = "B"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="46080"/>
+                        <Tag tagguid="224256"/>
+                        <Tag tagguid="ext" tr_id="4"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Ubc=Ic.ш."  formula="0 * 1 * 2" uom = "B"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="47104"/>
+                        <Tag tagguid="226304"/>
+                        <Tag tagguid="ext" tr_id="4"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Uab=IIc.ш."  formula="0 * 1 * 2" uom = "B"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="48128"/>
+                        <Tag tagguid="228352"/>
+						<Tag tagguid="ext" tr_id="4"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Ubc=IIc.ш."  formula="0 * 1 * 2" uom = "B"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="49152"/>
+                        <Tag tagguid="230400"/>
+						<Tag tagguid="ext" tr_id="4"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Id 1"  formula="0 * 1" uom = "*Iн"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="50176"/>
+                        <Tag tagguid="232448"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Id 2="  formula="0 * 1" uom = "*Iн"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="51200"/>
+                        <Tag tagguid="234496"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Id 3"  formula="0 * 1" uom = "*Iн"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="52224"/>
+                        <Tag tagguid="236544"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="тI 1"  formula="0 * 1" uom = "*Iн"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="53248"/>
+                        <Tag tagguid="238592"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="тI 2"  formula="0 * 1" uom = "*Iн"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="54272"/>
+                        <Tag tagguid="240640"/>
+                    </NewCalculatedTag>                           
+                    <NewCalculatedTag name="тI 3"  formula="0 * 1" uom = "*Iн"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="55296"/>
+                        <Tag tagguid="242688"/>
+                    </NewCalculatedTag>                
+                </NewGroup>
+                <NewGroup name="Вторичные значения (расчетные)">
+                    <!--если name пустое - то тег отключен -->
+                    <NewCalculatedTag name="I1" formula="0 * 1" uom = "A"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="33792"/>
+                        <Tag tagguid="199680"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="I2"  formula="0 * 1" uom = "A"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="34816"/>
+                        <Tag tagguid="201728"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="I3"  formula="0 * 1" uom = "A"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="35840"/>
+                        <Tag tagguid="203776"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="I4"  formula="0 * 1" uom = "A"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="36864"/>
+                        <Tag tagguid="205824"/>
+                        <Tag tagguid="ext" tr_id="2"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="I5"  formula="0 * 1" uom = "A"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="37888"/>
+                        <Tag tagguid="207872"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="I6"  formula="0 * 1" uom = "A"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="38912"/>
+                        <Tag tagguid="209920"/>
+                        <Tag tagguid="ext" tr_id="2"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="I7"  formula="0 * 1" uom = "A"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="39936"/>
+                        <Tag tagguid="211968"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="I8"  formula="0 * 1" uom = "A"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="40960"/>
+                        <Tag tagguid="214016"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="I9"  formula="0 * 1" uom = "A"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="41984"/>
+                        <Tag tagguid="216064"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="I10"  formula="0 * 1" uom = "A"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="43008"/>
+                        <Tag tagguid="218112"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="I11"  formula="0 * 1" uom = "A"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="44032"/>
+                        <Tag tagguid="220160"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="I12"  formula="0 * 1" uom = "A"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="45056"/>
+                        <Tag tagguid="222208"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Uab=Ic.ш."  formula="0 * 1" uom = "B"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="46080"/>
+                        <Tag tagguid="224256"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Ubc=Ic.ш."  formula="0 * 1" uom = "B"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="47104"/>
+                        <Tag tagguid="226304"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Uab=IIc.ш."  formula="0 * 1" uom = "B"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="48128"/>
+                        <Tag tagguid="228352"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Ubc=IIc.ш."  formula="0 * 1" uom = "B"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="49152"/>
+                        <Tag tagguid="230400"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Id 1"  formula="0 * 1" uom = "*Iн"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="50176"/>
+                        <Tag tagguid="232448"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Id 2"  formula="0 * 1" uom = "*Iн"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="51200"/>
+                        <Tag tagguid="234496"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Id 3"  formula="0 * 1" uom = "*Iн"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="52224"/>
+                        <Tag tagguid="236544"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="тI 1"  formula="0 * 1" uom = "*Iн"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="53248"/>
+                        <Tag tagguid="238592"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="тI 2"  formula="0 * 1" uom = "*Iн"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="54272"/>
+                        <Tag tagguid="240640"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="тI 3"  formula="0 * 1" uom = "*Iн"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="55296"/>
+                        <Tag tagguid="242688"/>
+                    </NewCalculatedTag>                
+                </NewGroup>
+                <NewGroup name="Максметр (расчетные)">
+                    <!--если name пустое - то тег отключен -->
+                    <NewCalculatedTag name="Id 1" formula="0 * 1" uom = "А"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="142336"/>
+                        <Tag tagguid="232448"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Id 2"  formula="0 * 1" uom = "А"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="143360"/>
+                        <Tag tagguid="234496"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Id 3"  formula="0 * 1" uom = "А"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="144384"/>
+                        <Tag tagguid="236544"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                </NewGroup>
+                <NewGroup name="Расчетные дискретные значения">
+                    <NewCalculatedTag name="БМРЗ исправен" tagguid="400" formula="((!0) &amp; (!1))" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="1574912"/><!--бит 3(11) 1574912-->
+                        <Tag tagguid="1589248"/><!--бит 6(14) 1589248-->
+                     </NewCalculatedTag>
+                    <NewCalculatedTag name="Неисправность БМРЗ" tagguid="401" formula="(0 &amp; (!1))" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="1574912"/><!--бит 3(11) 1574912-->
+                        <Tag tagguid="1589248"/><!--бит 6(14) 1589248-->
+                     </NewCalculatedTag>
+                    <NewCalculatedTag name="Отказ БМРЗ" tagguid="402" formula="((!0) &amp; 1)" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="1574912"/><!--бит 3(11) 1574912-->
+                        <Tag tagguid="1589248"/><!--бит 6(14) 1589248-->
+                     </NewCalculatedTag>
+                    <NewCalculatedTag name="Режим Тест БМРЗ" tagguid="403" formula="0 &amp; 1" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="1574912"/><!--бит 3(11) 1574912-->
+                        <Tag tagguid="1589248"/><!--бит 6(14) 1589248-->
+                     </NewCalculatedTag>
+                </NewGroup>
+            </NewGroups>    
+            <!-- далее перечень устройств на присоединениях и значения соотв коэф трансф -->
+            <Devices>
+                <TransformationRatio devGUID = "272">
+                    <TR id="1" value="120" />
+                    <TR id="2" value="60" />
+					<TR id="3" value="30" />
+                    <TR id="4" value="350" />
+                </TransformationRatio>
+                <TransformationRatio devGUID = "273">
+                    <TR id="1" value="120" />
+                    <TR id="2" value="60" />
+					<TR id="3" value="30" />
+                    <TR id="4" value="350" />
+                </TransformationRatio>
+                <TransformationRatio devGUID = "274">
+                    <TR id="1" value="120" />
+                    <TR id="2" value="60" />
+					<TR id="3" value="30" />
+                    <TR id="4" value="350" />
+                </TransformationRatio>
+            </Devices>
+        </DevType>
+        <DevType name="BRCHN_100_A_01_111110" groupguid_starting_value="33000" tagguid_starting_value = "330">
+            <NewGroups>
+                <NewGroup name="Первичные значения (расчетные)">
+                    <!--если name пустое - то тег отключен -->
+                    <NewCalculatedTag name="Uab" formula="0" uom = "В"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="230400"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Uab" formula="0 * 1" uom = "В"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="231424"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Uab" formula="0 * 1" uom = "В"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="232448"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Uab const"  formula="0 * 1" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="233472"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Ubc"  formula="0 * 1" uom = "В"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="236544"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Ubc"  formula="0 * 1" uom = "В"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="237568"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Ubc"  formula="0 * 1" uom = "В"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="238592"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Ubc const"  formula="0 * 1" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="239616"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="1U+2U"  formula="0 * 1" uom = "DFT"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="240640"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="1U+2U"  formula="0 * 1" uom = "DFT"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="241664"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="1U+2U"  formula="0 * 1" uom = "DFT"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="242688"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="1U+2U const"  formula="0 * 1" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="243712"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="U2"  formula="0 * 1" uom = "В"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="245760"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="U2"  formula="0 * 1" uom = "В"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="246784"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="U2"  formula="0 * 1" uom = "В"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="247808"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Umin"  formula="0 * 1" uom = "В"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="248832"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="Umax"  formula="0 * 1" uom = "В"> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="249856"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                </NewGroup>
+            </NewGroups>    
+            <!-- далее перечень устройств на присоединениях и значения соотв коэф трансф -->
+            <Devices>
+                <TransformationRatio devGUID = "279">
+                    <TR id="1" value="39.103149" />
+                </TransformationRatio>
+                <TransformationRatio devGUID = "280">
+                    <TR id="1" value="39.103149" />
+                </TransformationRatio>
+            </Devices>
+        </DevType>
+        
+        <DevType name="шаблон" groupguid_starting_value="33000" tagguid_starting_value = "330">
+            <NewGroups>
+                <NewGroup name="Первичные значения (расчетные)">
+                    <!--если name пустое - то тег отключен -->
+                    <NewCalculatedTag name="66" formula="0 * 1 * 2" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="33792"/>
+                        <Tag tagguid="199680"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="68"  formula="0 * 1 * 2" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="34816"/>
+                        <Tag tagguid="201728"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="70"  formula="0 * 1 * 2" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="35840"/>
+                        <Tag tagguid="203776"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="72"  formula="0 * 1 * 2" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="36864"/>
+                        <Tag tagguid="205824"/>
+                        <Tag tagguid="ext" tr_id="2"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="74"  formula="0 * 1 * 2" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="37888"/>
+                        <Tag tagguid="207872"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="76"  formula="0 * 1 * 2" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="38912"/>
+                        <Tag tagguid="209920"/>
+                        <Tag tagguid="ext" tr_id="2"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="78"  formula="0 * 1 * 2" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="39936"/>
+                        <Tag tagguid="211968"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="80"  formula="0 * 1 * 2" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="40960"/>
+                        <Tag tagguid="214016"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="82"  formula="0 * 1 * 2" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="41984"/>
+                        <Tag tagguid="216064"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="84"  formula="0 * 1 * 2" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="43008"/>
+                        <Tag tagguid="218112"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="86"  formula="0 * 1 * 2" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="44032"/>
+                        <Tag tagguid="220160"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="88"  formula="0 * 1 * 2" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="45056"/>
+                        <Tag tagguid="222208"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="90"  formula="0 * 1 * 2" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="46080"/>
+                        <Tag tagguid="224256"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="92"  formula="0 * 1 * 2" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="47104"/>
+                        <Tag tagguid="226304"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="94"  formula="0 * 1" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="48128"/>
+                        <Tag tagguid="228352"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="96"  formula="0 * 1" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="49152"/>
+                        <Tag tagguid="230400"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="98"  formula="0 * 1" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="50176"/>
+                        <Tag tagguid="232448"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="100"  formula="0 * 1" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="51200"/>
+                        <Tag tagguid="234496"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="102"  formula="0 * 1" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="52224"/>
+                        <Tag tagguid="236544"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="104"  formula="0 * 1" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="53248"/>
+                        <Tag tagguid="238592"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="106"  formula="0 * 1" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="54272"/>
+                        <Tag tagguid="240640"/>
+                    </NewCalculatedTag>                           
+                    <NewCalculatedTag name="108"  formula="0 * 1" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="55296"/>
+                        <Tag tagguid="242688"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="110"  formula="0 * 1" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="56320"/>
+                        <Tag tagguid="244736"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="112"  formula="0 * 1" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="57344"/>
+                        <Tag tagguid="246784"/>
+                    </NewCalculatedTag>                                       
+                </NewGroup>
+                <NewGroup name="Вторичные значения (расчетные)">
+                    <!--если name пустое - то тег отключен -->
+                    <NewCalculatedTag name="66" formula="0 * 1" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="33792"/>
+                        <Tag tagguid="199680"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="68"  formula="0 * 1" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="34816"/>
+                        <Tag tagguid="201728"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="70"  formula="0 * 1" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="35840"/>
+                        <Tag tagguid="203776"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="72"  formula="0 * 1" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="36864"/>
+                        <Tag tagguid="205824"/>
+                        <Tag tagguid="ext" tr_id="2"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="74"  formula="0 * 1" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="37888"/>
+                        <Tag tagguid="207872"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="76"  formula="0 * 1" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="38912"/>
+                        <Tag tagguid="209920"/>
+                        <Tag tagguid="ext" tr_id="2"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="78"  formula="0 * 1" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="39936"/>
+                        <Tag tagguid="211968"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="80"  formula="0 * 1" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="40960"/>
+                        <Tag tagguid="214016"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="82"  formula="0 * 1" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="41984"/>
+                        <Tag tagguid="216064"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="84"  formula="0 * 1" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="43008"/>
+                        <Tag tagguid="218112"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="86"  formula="0 * 1" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="44032"/>
+                        <Tag tagguid="220160"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="88"  formula="0 * 1" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="45056"/>
+                        <Tag tagguid="222208"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="90"  formula="0 * 1" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="46080"/>
+                        <Tag tagguid="224256"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="92"  formula="0 * 1" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="47104"/>
+                        <Tag tagguid="226304"/>
+                        <Tag tagguid="ext" tr_id="1"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="94"  formula="0 * 1" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="48128"/>
+                        <Tag tagguid="228352"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="96"  formula="0 * 1" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="49152"/>
+                        <Tag tagguid="230400"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="98"  formula="0 * 1" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="50176"/>
+                        <Tag tagguid="232448"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="100"  formula="0 * 1" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="51200"/>
+                        <Tag tagguid="234496"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="102"  formula="0 * 1" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="52224"/>
+                        <Tag tagguid="236544"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="104"  formula="0 * 1" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="53248"/>
+                        <Tag tagguid="238592"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="106"  formula="0 * 1" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="54272"/>
+                        <Tag tagguid="240640"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="108"  formula="0 * 1" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="55296"/>
+                        <Tag tagguid="242688"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="110"  formula="0 * 1" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="56320"/>
+                        <Tag tagguid="244736"/>
+                    </NewCalculatedTag>                
+                    <NewCalculatedTag name="112"  formula="0 * 1" uom = ""> <!--имя тега - имя первого тега из списка ниже-->
+                        <Tag tagguid="57344"/>
+                        <Tag tagguid="246784"/>
+                    </NewCalculatedTag>                
+                </NewGroup>
+            </NewGroups>    
+            <!-- далее перечень устройств на присоединениях и значения соотв коэф трансф -->
+            <Devices>
+                <TransformationRatio devGUID = "xxx">
+                    <TR id="1" value="100" />
+                    <TR id="2" value="60" />
+                </TransformationRatio>
+            </Devices>
+        </DevType>
+    </TransformationRatioDescribe>
+</Project>

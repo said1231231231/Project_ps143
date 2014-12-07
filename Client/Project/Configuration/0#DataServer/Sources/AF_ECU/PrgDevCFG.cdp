@@ -1,0 +1,1626 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<MTRA>
+  <Configuration>
+    <SourceECU objectGUID="297" name="КСДУ1" enable="true" numECU="1" describe="КСДУ1" typeECU="AF_ECU" TypeName="AF_ECU" ECUadr="192.168.240.21" CommonAddressASDU="0" FlagPreliminarySelectCMD="false" Port="2404">
+      <ECUDevices>
+        <Device objectGUID="256" enable="True" NumECU="1" NumDev="0" TypeName="Головное устройство" ParsingVariant="IEC104Device">
+          <DescDev>
+            <NumSource>1</NumSource>
+            <NumECU>1</NumECU>
+            <NumDev>0</NumDev>
+            <AddressSpace>7000</AddressSpace>
+            <TypeContextMenu name="" />
+            <TypeName>Головное устройство</TypeName>
+            <nameR>Головное устройство</nameR>
+            <nameELowLevel>Головное устройство</nameELowLevel>
+            <nameEHighLevel>TГоловное устройство</nameEHighLevel>
+            <DescDev>
+              <DescDev>0#Головное устройство</DescDev>
+            </DescDev>
+          </DescDev>
+        </Device>
+        <Device objectGUID="257" enable="True" NumECU="1" NumDev="1" TypeName="PCI-P8R8" ParsingVariant="IEC104Device">
+          <DescDev>
+            <NumSource>1</NumSource>
+            <NumECU>1</NumECU>
+            <NumDev>1</NumDev>
+            <AddressSpace>7000</AddressSpace>
+            <TypeContextMenu name="" />
+            <TypeName>PCI-P8R8</TypeName>
+            <nameR>PCI-P8R8</nameR>
+            <nameELowLevel>PCI-P8R8</nameELowLevel>
+            <nameEHighLevel>TPCI-P8R8</nameEHighLevel>
+            <DescDev>
+              <DescDev>1#PCI-P8R8</DescDev>
+            </DescDev>
+          </DescDev>
+        </Device>
+        <Device objectGUID="258" enable="True" NumECU="1" NumDev="2" TypeName="БМРЗ-Вв-43-13" ParsingVariant="IEC104Device">
+          <DescDev>
+            <NumSource>1</NumSource>
+            <NumECU>1</NumECU>
+            <NumDev>2</NumDev>
+            <AddressSpace>7000</AddressSpace>
+            <TypeContextMenu name="" />
+            <TypeName>БМРЗ-Вв-43-13</TypeName>
+            <nameR>БМРЗ-Вв-43-13</nameR>
+            <nameELowLevel>БМРЗ-Вв-43-13</nameELowLevel>
+            <nameEHighLevel>TБМРЗ-Вв-43-13</nameEHighLevel>
+            <DescDev>
+              <DescDev>2#БМРЗ-Вв-43-13</DescDev>
+            </DescDev>
+          </DescDev>
+        </Device>
+        <Device objectGUID="259" enable="True" NumECU="1" NumDev="3" TypeName="БМРЗ-КН-01-11" ParsingVariant="IEC104Device">
+          <DescDev>
+            <NumSource>1</NumSource>
+            <NumECU>1</NumECU>
+            <NumDev>3</NumDev>
+            <AddressSpace>7000</AddressSpace>
+            <TypeContextMenu name="" />
+            <TypeName>БМРЗ-КН-01-11</TypeName>
+            <nameR>БМРЗ-КН-01-11</nameR>
+            <nameELowLevel>БМРЗ-КН-01-11</nameELowLevel>
+            <nameEHighLevel>TБМРЗ-КН-01-11</nameEHighLevel>
+            <DescDev>
+              <DescDev>3#БМРЗ-КН-01-11</DescDev>
+            </DescDev>
+          </DescDev>
+        </Device>
+        <Device objectGUID="260" enable="True" NumECU="1" NumDev="4" TypeName="БМРЗ-Вв-43-13" ParsingVariant="IEC104Device">
+          <DescDev>
+            <NumSource>1</NumSource>
+            <NumECU>1</NumECU>
+            <NumDev>4</NumDev>
+            <AddressSpace>7000</AddressSpace>
+            <TypeContextMenu name="" />
+            <TypeName>БМРЗ-Вв-43-13</TypeName>
+            <nameR>БМРЗ-Вв-43-13</nameR>
+            <nameELowLevel>БМРЗ-Вв-43-13</nameELowLevel>
+            <nameEHighLevel>TБМРЗ-Вв-43-13</nameEHighLevel>
+            <DescDev>
+              <DescDev>4#БМРЗ-Вв-43-13</DescDev>
+            </DescDev>
+          </DescDev>
+        </Device>
+        <Device objectGUID="261" enable="True" NumECU="1" NumDev="5" TypeName="БМРЗ-КН-01-11" ParsingVariant="IEC104Device">
+          <DescDev>
+            <NumSource>1</NumSource>
+            <NumECU>1</NumECU>
+            <NumDev>5</NumDev>
+            <AddressSpace>7000</AddressSpace>
+            <TypeContextMenu name="" />
+            <TypeName>БМРЗ-КН-01-11</TypeName>
+            <nameR>БМРЗ-КН-01-11</nameR>
+            <nameELowLevel>БМРЗ-КН-01-11</nameELowLevel>
+            <nameEHighLevel>TБМРЗ-КН-01-11</nameEHighLevel>
+            <DescDev>
+              <DescDev>5#БМРЗ-КН-01-11</DescDev>
+            </DescDev>
+          </DescDev>
+        </Device>
+        <Device objectGUID="262" enable="True" NumECU="1" NumDev="6" TypeName="Экра 2704V021" ParsingVariant="IEC104Device">
+          <DescDev>
+            <NumSource>1</NumSource>
+            <NumECU>1</NumECU>
+            <NumDev>6</NumDev>
+            <AddressSpace>7000</AddressSpace>
+            <TypeContextMenu name="" />
+            <TypeName>Экра 2704V021</TypeName>
+            <nameR>Экра 2704V021</nameR>
+            <nameELowLevel>Экра 2704V021</nameELowLevel>
+            <nameEHighLevel>TЭкра 2704V021</nameEHighLevel>
+            <DescDev>
+              <DescDev>6#Экра 2704V021</DescDev>
+            </DescDev>
+          </DescDev>
+        </Device>
+        <Device objectGUID="263" enable="True" NumECU="1" NumDev="7" TypeName="Экра 2704V091" ParsingVariant="IEC104Device">
+          <DescDev>
+            <NumSource>1</NumSource>
+            <NumECU>1</NumECU>
+            <NumDev>7</NumDev>
+            <AddressSpace>7000</AddressSpace>
+            <TypeContextMenu name="" />
+            <TypeName>Экра 2704V091</TypeName>
+            <nameR>Экра 2704V091</nameR>
+            <nameELowLevel>Экра 2704V091</nameELowLevel>
+            <nameEHighLevel>TЭкра 2704V091</nameEHighLevel>
+            <DescDev>
+              <DescDev>7#Экра 2704V091</DescDev>
+            </DescDev>
+          </DescDev>
+        </Device>
+        <Device objectGUID="264" enable="True" NumECU="1" NumDev="8" TypeName="Экра 2704V012" ParsingVariant="IEC104Device">
+          <DescDev>
+            <NumSource>1</NumSource>
+            <NumECU>1</NumECU>
+            <NumDev>8</NumDev>
+            <AddressSpace>7000</AddressSpace>
+            <TypeContextMenu name="" />
+            <TypeName>Экра 2704V012</TypeName>
+            <nameR>Экра 2704V012</nameR>
+            <nameELowLevel>Экра 2704V012</nameELowLevel>
+            <nameEHighLevel>TЭкра 2704V012</nameEHighLevel>
+            <DescDev>
+              <DescDev>8#Экра 2704V012</DescDev>
+            </DescDev>
+          </DescDev>
+        </Device>
+        <Device objectGUID="265" enable="True" NumECU="1" NumDev="9" TypeName="Экра 2704V021" ParsingVariant="IEC104Device">
+          <DescDev>
+            <NumSource>1</NumSource>
+            <NumECU>1</NumECU>
+            <NumDev>9</NumDev>
+            <AddressSpace>7000</AddressSpace>
+            <TypeContextMenu name="" />
+            <TypeName>Экра 2704V021</TypeName>
+            <nameR>Экра 2704V021</nameR>
+            <nameELowLevel>Экра 2704V021</nameELowLevel>
+            <nameEHighLevel>TЭкра 2704V021</nameEHighLevel>
+            <DescDev>
+              <DescDev>9#Экра 2704V021</DescDev>
+            </DescDev>
+          </DescDev>
+        </Device>
+        <Device objectGUID="266" enable="True" NumECU="1" NumDev="10" TypeName="Экра 2704V041" ParsingVariant="IEC104Device">
+          <DescDev>
+            <NumSource>1</NumSource>
+            <NumECU>1</NumECU>
+            <NumDev>10</NumDev>
+            <AddressSpace>7000</AddressSpace>
+            <TypeContextMenu name="" />
+            <TypeName>Экра 2704V041</TypeName>
+            <nameR>Экра 2704V041</nameR>
+            <nameELowLevel>Экра 2704V041</nameELowLevel>
+            <nameEHighLevel>TЭкра 2704V041</nameEHighLevel>
+            <DescDev>
+              <DescDev>10#Экра 2704V041</DescDev>
+            </DescDev>
+          </DescDev>
+        </Device>
+        <Device objectGUID="267" enable="True" NumECU="1" NumDev="11" TypeName="Экра 2704V071" ParsingVariant="IEC104Device">
+          <DescDev>
+            <NumSource>1</NumSource>
+            <NumECU>1</NumECU>
+            <NumDev>11</NumDev>
+            <AddressSpace>7000</AddressSpace>
+            <TypeContextMenu name="" />
+            <TypeName>Экра 2704V071</TypeName>
+            <nameR>Экра 2704V071</nameR>
+            <nameELowLevel>Экра 2704V071</nameELowLevel>
+            <nameEHighLevel>TЭкра 2704V071</nameEHighLevel>
+            <DescDev>
+              <DescDev>11#Экра 2704V071</DescDev>
+            </DescDev>
+          </DescDev>
+        </Device>
+        <Device objectGUID="268" enable="True" NumECU="1" NumDev="12" TypeName="Экра 2704V041" ParsingVariant="IEC104Device">
+          <DescDev>
+            <NumSource>1</NumSource>
+            <NumECU>1</NumECU>
+            <NumDev>12</NumDev>
+            <AddressSpace>7000</AddressSpace>
+            <TypeContextMenu name="" />
+            <TypeName>Экра 2704V041</TypeName>
+            <nameR>Экра 2704V041</nameR>
+            <nameELowLevel>Экра 2704V041</nameELowLevel>
+            <nameEHighLevel>TЭкра 2704V041</nameEHighLevel>
+            <DescDev>
+              <DescDev>12#Экра 2704V041</DescDev>
+            </DescDev>
+          </DescDev>
+        </Device>
+        <Device objectGUID="269" enable="True" NumECU="1" NumDev="13" TypeName="Экра 2704V071" ParsingVariant="IEC104Device">
+          <DescDev>
+            <NumSource>1</NumSource>
+            <NumECU>1</NumECU>
+            <NumDev>13</NumDev>
+            <AddressSpace>7000</AddressSpace>
+            <TypeContextMenu name="" />
+            <TypeName>Экра 2704V071</TypeName>
+            <nameR>Экра 2704V071</nameR>
+            <nameELowLevel>Экра 2704V071</nameELowLevel>
+            <nameEHighLevel>TЭкра 2704V071</nameEHighLevel>
+            <DescDev>
+              <DescDev>13#Экра 2704V071</DescDev>
+            </DescDev>
+          </DescDev>
+        </Device>
+        <Device objectGUID="270" enable="True" NumECU="1" NumDev="14" TypeName="Сириус-ОЗЗ" ParsingVariant="IEC104Device">
+          <DescDev>
+            <NumSource>1</NumSource>
+            <NumECU>1</NumECU>
+            <NumDev>14</NumDev>
+            <AddressSpace>7000</AddressSpace>
+            <TypeContextMenu name="" />
+            <TypeName>Сириус-ОЗЗ</TypeName>
+            <nameR>Сириус-ОЗЗ</nameR>
+            <nameELowLevel>Сириус-ОЗЗ</nameELowLevel>
+            <nameEHighLevel>TСириус-ОЗЗ</nameEHighLevel>
+            <DescDev>
+              <DescDev>14#Сириус-ОЗЗ</DescDev>
+            </DescDev>
+          </DescDev>
+        </Device>
+        <Device objectGUID="271" enable="True" NumECU="1" NumDev="15" TypeName="Сириус-ОЗЗ" ParsingVariant="IEC104Device">
+          <DescDev>
+            <NumSource>1</NumSource>
+            <NumECU>1</NumECU>
+            <NumDev>15</NumDev>
+            <AddressSpace>7000</AddressSpace>
+            <TypeContextMenu name="" />
+            <TypeName>Сириус-ОЗЗ</TypeName>
+            <nameR>Сириус-ОЗЗ</nameR>
+            <nameELowLevel>Сириус-ОЗЗ</nameELowLevel>
+            <nameEHighLevel>TСириус-ОЗЗ</nameEHighLevel>
+            <DescDev>
+              <DescDev>15#Сириус-ОЗЗ</DescDev>
+            </DescDev>
+          </DescDev>
+        </Device>
+        <Device objectGUID="272" enable="True" NumECU="1" NumDev="16" TypeName="Сириус-ОЗЗ" ParsingVariant="IEC104Device">
+          <DescDev>
+            <NumSource>1</NumSource>
+            <NumECU>1</NumECU>
+            <NumDev>16</NumDev>
+            <AddressSpace>7000</AddressSpace>
+            <TypeContextMenu name="" />
+            <TypeName>Сириус-ОЗЗ</TypeName>
+            <nameR>Сириус-ОЗЗ</nameR>
+            <nameELowLevel>Сириус-ОЗЗ</nameELowLevel>
+            <nameEHighLevel>TСириус-ОЗЗ</nameEHighLevel>
+            <DescDev>
+              <DescDev>16#Сириус-ОЗЗ</DescDev>
+            </DescDev>
+          </DescDev>
+        </Device>
+        <Device objectGUID="273" enable="True" NumECU="1" NumDev="17" TypeName="Сириус-ОЗЗ" ParsingVariant="IEC104Device">
+          <DescDev>
+            <NumSource>1</NumSource>
+            <NumECU>1</NumECU>
+            <NumDev>17</NumDev>
+            <AddressSpace>7000</AddressSpace>
+            <TypeContextMenu name="" />
+            <TypeName>Сириус-ОЗЗ</TypeName>
+            <nameR>Сириус-ОЗЗ</nameR>
+            <nameELowLevel>Сириус-ОЗЗ</nameELowLevel>
+            <nameEHighLevel>TСириус-ОЗЗ</nameEHighLevel>
+            <DescDev>
+              <DescDev>17#Сириус-ОЗЗ</DescDev>
+            </DescDev>
+          </DescDev>
+        </Device>
+        <Device objectGUID="274" enable="True" NumECU="1" NumDev="18" TypeName="ИМФ-1Р" ParsingVariant="IEC104Device">
+          <DescDev>
+            <NumSource>1</NumSource>
+            <NumECU>1</NumECU>
+            <NumDev>18</NumDev>
+            <AddressSpace>7000</AddressSpace>
+            <TypeContextMenu name="" />
+            <TypeName>ИМФ-1Р</TypeName>
+            <nameR>ИМФ-1Р</nameR>
+            <nameELowLevel>ИМФ-1Р</nameELowLevel>
+            <nameEHighLevel>TИМФ-1Р</nameEHighLevel>
+            <DescDev>
+              <DescDev>18#ИМФ-1Р</DescDev>
+            </DescDev>
+          </DescDev>
+        </Device>
+        <Device objectGUID="275" enable="True" NumECU="1" NumDev="19" TypeName="Сириус-ОЗЗ" ParsingVariant="IEC104Device">
+          <DescDev>
+            <NumSource>1</NumSource>
+            <NumECU>1</NumECU>
+            <NumDev>19</NumDev>
+            <AddressSpace>7000</AddressSpace>
+            <TypeContextMenu name="" />
+            <TypeName>Сириус-ОЗЗ</TypeName>
+            <nameR>Сириус-ОЗЗ</nameR>
+            <nameELowLevel>Сириус-ОЗЗ</nameELowLevel>
+            <nameEHighLevel>TСириус-ОЗЗ</nameEHighLevel>
+            <DescDev>
+              <DescDev>19#Сириус-ОЗЗ</DescDev>
+            </DescDev>
+          </DescDev>
+        </Device>
+        <Device objectGUID="276" enable="True" NumECU="1" NumDev="20" TypeName="Сириус-ОЗЗ" ParsingVariant="IEC104Device">
+          <DescDev>
+            <NumSource>1</NumSource>
+            <NumECU>1</NumECU>
+            <NumDev>20</NumDev>
+            <AddressSpace>7000</AddressSpace>
+            <TypeContextMenu name="" />
+            <TypeName>Сириус-ОЗЗ</TypeName>
+            <nameR>Сириус-ОЗЗ</nameR>
+            <nameELowLevel>Сириус-ОЗЗ</nameELowLevel>
+            <nameEHighLevel>TСириус-ОЗЗ</nameEHighLevel>
+            <DescDev>
+              <DescDev>20#Сириус-ОЗЗ</DescDev>
+            </DescDev>
+          </DescDev>
+        </Device>
+        <Device objectGUID="277" enable="True" NumECU="1" NumDev="21" TypeName="Сириус-ОЗЗ" ParsingVariant="IEC104Device">
+          <DescDev>
+            <NumSource>1</NumSource>
+            <NumECU>1</NumECU>
+            <NumDev>21</NumDev>
+            <AddressSpace>7000</AddressSpace>
+            <TypeContextMenu name="" />
+            <TypeName>Сириус-ОЗЗ</TypeName>
+            <nameR>Сириус-ОЗЗ</nameR>
+            <nameELowLevel>Сириус-ОЗЗ</nameELowLevel>
+            <nameEHighLevel>TСириус-ОЗЗ</nameEHighLevel>
+            <DescDev>
+              <DescDev>21#Сириус-ОЗЗ</DescDev>
+            </DescDev>
+          </DescDev>
+        </Device>
+        <Device objectGUID="278" enable="True" NumECU="1" NumDev="22" TypeName="Сириус-ОЗЗ" ParsingVariant="IEC104Device">
+          <DescDev>
+            <NumSource>1</NumSource>
+            <NumECU>1</NumECU>
+            <NumDev>22</NumDev>
+            <AddressSpace>7000</AddressSpace>
+            <TypeContextMenu name="" />
+            <TypeName>Сириус-ОЗЗ</TypeName>
+            <nameR>Сириус-ОЗЗ</nameR>
+            <nameELowLevel>Сириус-ОЗЗ</nameELowLevel>
+            <nameEHighLevel>TСириус-ОЗЗ</nameEHighLevel>
+            <DescDev>
+              <DescDev>22#Сириус-ОЗЗ</DescDev>
+            </DescDev>
+          </DescDev>
+        </Device>
+        <Device objectGUID="279" enable="True" NumECU="1" NumDev="23" TypeName="ИМФ-1Р" ParsingVariant="IEC104Device">
+          <DescDev>
+            <NumSource>1</NumSource>
+            <NumECU>1</NumECU>
+            <NumDev>23</NumDev>
+            <AddressSpace>7000</AddressSpace>
+            <TypeContextMenu name="" />
+            <TypeName>ИМФ-1Р</TypeName>
+            <nameR>ИМФ-1Р</nameR>
+            <nameELowLevel>ИМФ-1Р</nameELowLevel>
+            <nameEHighLevel>TИМФ-1Р</nameEHighLevel>
+            <DescDev>
+              <DescDev>23#ИМФ-1Р</DescDev>
+            </DescDev>
+          </DescDev>
+        </Device>
+        <Device objectGUID="280" enable="True" NumECU="1" NumDev="24" TypeName="ИМФ-1Р" ParsingVariant="IEC104Device">
+          <DescDev>
+            <NumSource>1</NumSource>
+            <NumECU>1</NumECU>
+            <NumDev>24</NumDev>
+            <AddressSpace>7000</AddressSpace>
+            <TypeContextMenu name="" />
+            <TypeName>ИМФ-1Р</TypeName>
+            <nameR>ИМФ-1Р</nameR>
+            <nameELowLevel>ИМФ-1Р</nameELowLevel>
+            <nameEHighLevel>TИМФ-1Р</nameEHighLevel>
+            <DescDev>
+              <DescDev>24#ИМФ-1Р</DescDev>
+            </DescDev>
+          </DescDev>
+        </Device>
+        <Device objectGUID="281" enable="True" NumECU="1" NumDev="25" TypeName="ИМФ-1Р" ParsingVariant="IEC104Device">
+          <DescDev>
+            <NumSource>1</NumSource>
+            <NumECU>1</NumECU>
+            <NumDev>25</NumDev>
+            <AddressSpace>7000</AddressSpace>
+            <TypeContextMenu name="" />
+            <TypeName>ИМФ-1Р</TypeName>
+            <nameR>ИМФ-1Р</nameR>
+            <nameELowLevel>ИМФ-1Р</nameELowLevel>
+            <nameEHighLevel>TИМФ-1Р</nameEHighLevel>
+            <DescDev>
+              <DescDev>25#ИМФ-1Р</DescDev>
+            </DescDev>
+          </DescDev>
+        </Device>
+        <Device objectGUID="282" enable="True" NumECU="1" NumDev="26" TypeName="ИМФ-1Р" ParsingVariant="IEC104Device">
+          <DescDev>
+            <NumSource>1</NumSource>
+            <NumECU>1</NumECU>
+            <NumDev>26</NumDev>
+            <AddressSpace>7000</AddressSpace>
+            <TypeContextMenu name="" />
+            <TypeName>ИМФ-1Р</TypeName>
+            <nameR>ИМФ-1Р</nameR>
+            <nameELowLevel>ИМФ-1Р</nameELowLevel>
+            <nameEHighLevel>TИМФ-1Р</nameEHighLevel>
+            <DescDev>
+              <DescDev>26#ИМФ-1Р</DescDev>
+            </DescDev>
+          </DescDev>
+        </Device>
+        <Device objectGUID="283" enable="True" NumECU="1" NumDev="27" TypeName="ИМФ-1Р" ParsingVariant="IEC104Device">
+          <DescDev>
+            <NumSource>1</NumSource>
+            <NumECU>1</NumECU>
+            <NumDev>27</NumDev>
+            <AddressSpace>7000</AddressSpace>
+            <TypeContextMenu name="" />
+            <TypeName>ИМФ-1Р</TypeName>
+            <nameR>ИМФ-1Р</nameR>
+            <nameELowLevel>ИМФ-1Р</nameELowLevel>
+            <nameEHighLevel>TИМФ-1Р</nameEHighLevel>
+            <DescDev>
+              <DescDev>27#ИМФ-1Р</DescDev>
+            </DescDev>
+          </DescDev>
+        </Device>
+        <Device objectGUID="284" enable="True" NumECU="1" NumDev="28" TypeName="ИМФ-1Р" ParsingVariant="IEC104Device">
+          <DescDev>
+            <NumSource>1</NumSource>
+            <NumECU>1</NumECU>
+            <NumDev>28</NumDev>
+            <AddressSpace>7000</AddressSpace>
+            <TypeContextMenu name="" />
+            <TypeName>ИМФ-1Р</TypeName>
+            <nameR>ИМФ-1Р</nameR>
+            <nameELowLevel>ИМФ-1Р</nameELowLevel>
+            <nameEHighLevel>TИМФ-1Р</nameEHighLevel>
+            <DescDev>
+              <DescDev>28#ИМФ-1Р</DescDev>
+            </DescDev>
+          </DescDev>
+        </Device>
+        <Device objectGUID="285" enable="True" NumECU="1" NumDev="29" TypeName="ИМФ-1Р" ParsingVariant="IEC104Device">
+          <DescDev>
+            <NumSource>1</NumSource>
+            <NumECU>1</NumECU>
+            <NumDev>29</NumDev>
+            <AddressSpace>7000</AddressSpace>
+            <TypeContextMenu name="" />
+            <TypeName>ИМФ-1Р</TypeName>
+            <nameR>ИМФ-1Р</nameR>
+            <nameELowLevel>ИМФ-1Р</nameELowLevel>
+            <nameEHighLevel>TИМФ-1Р</nameEHighLevel>
+            <DescDev>
+              <DescDev>29#ИМФ-1Р</DescDev>
+            </DescDev>
+          </DescDev>
+        </Device>
+        <Device objectGUID="286" enable="True" NumECU="1" NumDev="30" TypeName="ИМФ-1Р" ParsingVariant="IEC104Device">
+          <DescDev>
+            <NumSource>1</NumSource>
+            <NumECU>1</NumECU>
+            <NumDev>30</NumDev>
+            <AddressSpace>7000</AddressSpace>
+            <TypeContextMenu name="" />
+            <TypeName>ИМФ-1Р</TypeName>
+            <nameR>ИМФ-1Р</nameR>
+            <nameELowLevel>ИМФ-1Р</nameELowLevel>
+            <nameEHighLevel>TИМФ-1Р</nameEHighLevel>
+            <DescDev>
+              <DescDev>30#ИМФ-1Р</DescDev>
+            </DescDev>
+          </DescDev>
+        </Device>
+        <Device objectGUID="287" enable="True" NumECU="1" NumDev="31" TypeName="ИМФ-1Р" ParsingVariant="IEC104Device">
+          <DescDev>
+            <NumSource>1</NumSource>
+            <NumECU>1</NumECU>
+            <NumDev>31</NumDev>
+            <AddressSpace>7000</AddressSpace>
+            <TypeContextMenu name="" />
+            <TypeName>ИМФ-1Р</TypeName>
+            <nameR>ИМФ-1Р</nameR>
+            <nameELowLevel>ИМФ-1Р</nameELowLevel>
+            <nameEHighLevel>TИМФ-1Р</nameEHighLevel>
+            <DescDev>
+              <DescDev>31#ИМФ-1Р</DescDev>
+            </DescDev>
+          </DescDev>
+        </Device>
+        <Device objectGUID="288" enable="True" NumECU="1" NumDev="32" TypeName="ИМФ-1Р" ParsingVariant="IEC104Device">
+          <DescDev>
+            <NumSource>1</NumSource>
+            <NumECU>1</NumECU>
+            <NumDev>32</NumDev>
+            <AddressSpace>7000</AddressSpace>
+            <TypeContextMenu name="" />
+            <TypeName>ИМФ-1Р</TypeName>
+            <nameR>ИМФ-1Р</nameR>
+            <nameELowLevel>ИМФ-1Р</nameELowLevel>
+            <nameEHighLevel>TИМФ-1Р</nameEHighLevel>
+            <DescDev>
+              <DescDev>32#ИМФ-1Р</DescDev>
+            </DescDev>
+          </DescDev>
+        </Device>
+        <Device objectGUID="289" enable="True" NumECU="1" NumDev="33" TypeName="ИМФ-1Р" ParsingVariant="IEC104Device">
+          <DescDev>
+            <NumSource>1</NumSource>
+            <NumECU>1</NumECU>
+            <NumDev>33</NumDev>
+            <AddressSpace>7000</AddressSpace>
+            <TypeContextMenu name="" />
+            <TypeName>ИМФ-1Р</TypeName>
+            <nameR>ИМФ-1Р</nameR>
+            <nameELowLevel>ИМФ-1Р</nameELowLevel>
+            <nameEHighLevel>TИМФ-1Р</nameEHighLevel>
+            <DescDev>
+              <DescDev>33#ИМФ-1Р</DescDev>
+            </DescDev>
+          </DescDev>
+        </Device>
+        <Device objectGUID="290" enable="True" NumECU="1" NumDev="34" TypeName="БМРЗ-Св-44-12" ParsingVariant="IEC104Device">
+          <DescDev>
+            <NumSource>1</NumSource>
+            <NumECU>1</NumECU>
+            <NumDev>34</NumDev>
+            <AddressSpace>7000</AddressSpace>
+            <TypeContextMenu name="" />
+            <TypeName>БМРЗ-Св-44-12</TypeName>
+            <nameR>БМРЗ-Св-44-12</nameR>
+            <nameELowLevel>БМРЗ-Св-44-12</nameELowLevel>
+            <nameEHighLevel>TБМРЗ-Св-44-12</nameEHighLevel>
+            <DescDev>
+              <DescDev>34#БМРЗ-Св-44-12</DescDev>
+            </DescDev>
+          </DescDev>
+        </Device>
+        <Device objectGUID="291" enable="True" NumECU="1" NumDev="35" TypeName="БМРЗ-Кл-46-12" ParsingVariant="IEC104Device">
+          <DescDev>
+            <NumSource>1</NumSource>
+            <NumECU>1</NumECU>
+            <NumDev>35</NumDev>
+            <AddressSpace>7000</AddressSpace>
+            <TypeContextMenu name="" />
+            <TypeName>БМРЗ-Кл-46-12</TypeName>
+            <nameR>БМРЗ-Кл-46-12</nameR>
+            <nameELowLevel>БМРЗ-Кл-46-12</nameELowLevel>
+            <nameEHighLevel>TБМРЗ-Кл-46-12</nameEHighLevel>
+            <DescDev>
+              <DescDev>35#БМРЗ-Кл-46-12</DescDev>
+            </DescDev>
+          </DescDev>
+        </Device>
+        <Device objectGUID="292" enable="True" NumECU="1" NumDev="36" TypeName="БМРЗ-Кл-46-12" ParsingVariant="IEC104Device">
+          <DescDev>
+            <NumSource>1</NumSource>
+            <NumECU>1</NumECU>
+            <NumDev>36</NumDev>
+            <AddressSpace>7000</AddressSpace>
+            <TypeContextMenu name="" />
+            <TypeName>БМРЗ-Кл-46-12</TypeName>
+            <nameR>БМРЗ-Кл-46-12</nameR>
+            <nameELowLevel>БМРЗ-Кл-46-12</nameELowLevel>
+            <nameEHighLevel>TБМРЗ-Кл-46-12</nameEHighLevel>
+            <DescDev>
+              <DescDev>36#БМРЗ-Кл-46-12</DescDev>
+            </DescDev>
+          </DescDev>
+        </Device>
+        <Device objectGUID="293" enable="True" NumECU="1" NumDev="37" TypeName="БМРЗ-Кл-46-12" ParsingVariant="IEC104Device">
+          <DescDev>
+            <NumSource>1</NumSource>
+            <NumECU>1</NumECU>
+            <NumDev>37</NumDev>
+            <AddressSpace>7000</AddressSpace>
+            <TypeContextMenu name="" />
+            <TypeName>БМРЗ-Кл-46-12</TypeName>
+            <nameR>БМРЗ-Кл-46-12</nameR>
+            <nameELowLevel>БМРЗ-Кл-46-12</nameELowLevel>
+            <nameEHighLevel>TБМРЗ-Кл-46-12</nameEHighLevel>
+            <DescDev>
+              <DescDev>37#БМРЗ-Кл-46-12</DescDev>
+            </DescDev>
+          </DescDev>
+        </Device>
+        <Device objectGUID="294" enable="True" NumECU="1" NumDev="38" TypeName="БМРЗ-Кл-46-12" ParsingVariant="IEC104Device">
+          <DescDev>
+            <NumSource>1</NumSource>
+            <NumECU>1</NumECU>
+            <NumDev>38</NumDev>
+            <AddressSpace>7000</AddressSpace>
+            <TypeContextMenu name="" />
+            <TypeName>БМРЗ-Кл-46-12</TypeName>
+            <nameR>БМРЗ-Кл-46-12</nameR>
+            <nameELowLevel>БМРЗ-Кл-46-12</nameELowLevel>
+            <nameEHighLevel>TБМРЗ-Кл-46-12</nameEHighLevel>
+            <DescDev>
+              <DescDev>38#БМРЗ-Кл-46-12</DescDev>
+            </DescDev>
+          </DescDev>
+        </Device>
+        <Device objectGUID="295" enable="True" NumECU="1" NumDev="39" TypeName="Сириус-ЦС" ParsingVariant="IEC104Device">
+          <DescDev>
+            <NumSource>1</NumSource>
+            <NumECU>1</NumECU>
+            <NumDev>39</NumDev>
+            <AddressSpace>7000</AddressSpace>
+            <TypeContextMenu name="" />
+            <TypeName>Сириус-ЦС</TypeName>
+            <nameR>Сириус-ЦС</nameR>
+            <nameELowLevel>Сириус-ЦС</nameELowLevel>
+            <nameEHighLevel>TСириус-ЦС</nameEHighLevel>
+            <DescDev>
+              <DescDev>39#Сириус-ЦС</DescDev>
+            </DescDev>
+          </DescDev>
+        </Device>
+        <Device objectGUID="296" enable="True" NumECU="1" NumDev="40" TypeName="ACUTIME_NMEA" ParsingVariant="IEC104Device">
+          <DescDev>
+            <NumSource>1</NumSource>
+            <NumECU>1</NumECU>
+            <NumDev>40</NumDev>
+            <AddressSpace>7000</AddressSpace>
+            <TypeContextMenu name="" />
+            <TypeName>ACUTIME_NMEA</TypeName>
+            <nameR>ACUTIME_NMEA</nameR>
+            <nameELowLevel>ACUTIME_NMEA</nameELowLevel>
+            <nameEHighLevel>TACUTIME_NMEA</nameEHighLevel>
+            <DescDev>
+              <DescDev>40#ACUTIME_NMEA</DescDev>
+            </DescDev>
+          </DescDev>
+        </Device>
+      </ECUDevices>
+      <DescDev>
+        <DescDev>41#AF_ECU</DescDev>
+      </DescDev>
+    </SourceECU>
+    <SourceECU objectGUID="543" name="КСДУ1" enable="true" numECU="2" describe="КСДУ1" typeECU="AF_ECU" TypeName="AF_ECU" ECUadr="192.168.240.202" CommonAddressASDU="0" FlagPreliminarySelectCMD="false" Port="2404">
+      <ECUDevices>
+        <Device objectGUID="512" enable="True" NumECU="2" NumDev="0" TypeName="Головное устройство" ParsingVariant="IEC104Device">
+          <DescDev>
+            <NumSource>2</NumSource>
+            <NumECU>2</NumECU>
+            <NumDev>0</NumDev>
+            <AddressSpace>7000</AddressSpace>
+            <TypeContextMenu name="" />
+            <TypeName>Головное устройство</TypeName>
+            <nameR>Головное устройство</nameR>
+            <nameELowLevel>Головное устройство</nameELowLevel>
+            <nameEHighLevel>TГоловное устройство</nameEHighLevel>
+            <DescDev>
+              <DescDev>0#Головное устройство</DescDev>
+            </DescDev>
+          </DescDev>
+        </Device>
+        <Device objectGUID="513" enable="True" NumECU="2" NumDev="1" TypeName="БМРЗ-СВ-32-12" ParsingVariant="IEC104Device">
+          <DescDev>
+            <NumSource>2</NumSource>
+            <NumECU>2</NumECU>
+            <NumDev>1</NumDev>
+            <AddressSpace>7000</AddressSpace>
+            <TypeContextMenu name="" />
+            <TypeName>БМРЗ-СВ-32-12</TypeName>
+            <nameR>БМРЗ-СВ-32-12</nameR>
+            <nameELowLevel>БМРЗ-СВ-32-12</nameELowLevel>
+            <nameEHighLevel>TБМРЗ-СВ-32-12</nameEHighLevel>
+            <DescDev>
+              <DescDev>1#БМРЗ-СВ-32-12</DescDev>
+            </DescDev>
+          </DescDev>
+        </Device>
+        <Device objectGUID="514" enable="True" NumECU="2" NumDev="2" TypeName="БМРЗ-КЛ-33-12" ParsingVariant="IEC104Device">
+          <DescDev>
+            <NumSource>2</NumSource>
+            <NumECU>2</NumECU>
+            <NumDev>2</NumDev>
+            <AddressSpace>7000</AddressSpace>
+            <TypeContextMenu name="" />
+            <TypeName>БМРЗ-КЛ-33-12</TypeName>
+            <nameR>БМРЗ-КЛ-33-12</nameR>
+            <nameELowLevel>БМРЗ-КЛ-33-12</nameELowLevel>
+            <nameEHighLevel>TБМРЗ-КЛ-33-12</nameEHighLevel>
+            <DescDev>
+              <DescDev>2#БМРЗ-КЛ-33-12</DescDev>
+            </DescDev>
+          </DescDev>
+        </Device>
+        <Device objectGUID="515" enable="True" NumECU="2" NumDev="3" TypeName="БМРЗ-КЛ-33-12" ParsingVariant="IEC104Device">
+          <DescDev>
+            <NumSource>2</NumSource>
+            <NumECU>2</NumECU>
+            <NumDev>3</NumDev>
+            <AddressSpace>7000</AddressSpace>
+            <TypeContextMenu name="" />
+            <TypeName>БМРЗ-КЛ-33-12</TypeName>
+            <nameR>БМРЗ-КЛ-33-12</nameR>
+            <nameELowLevel>БМРЗ-КЛ-33-12</nameELowLevel>
+            <nameEHighLevel>TБМРЗ-КЛ-33-12</nameEHighLevel>
+            <DescDev>
+              <DescDev>3#БМРЗ-КЛ-33-12</DescDev>
+            </DescDev>
+          </DescDev>
+        </Device>
+        <Device objectGUID="516" enable="True" NumECU="2" NumDev="4" TypeName="БМРЗ-КЛ-33-12" ParsingVariant="IEC104Device">
+          <DescDev>
+            <NumSource>2</NumSource>
+            <NumECU>2</NumECU>
+            <NumDev>4</NumDev>
+            <AddressSpace>7000</AddressSpace>
+            <TypeContextMenu name="" />
+            <TypeName>БМРЗ-КЛ-33-12</TypeName>
+            <nameR>БМРЗ-КЛ-33-12</nameR>
+            <nameELowLevel>БМРЗ-КЛ-33-12</nameELowLevel>
+            <nameEHighLevel>TБМРЗ-КЛ-33-12</nameEHighLevel>
+            <DescDev>
+              <DescDev>4#БМРЗ-КЛ-33-12</DescDev>
+            </DescDev>
+          </DescDev>
+        </Device>
+        <Device objectGUID="517" enable="True" NumECU="2" NumDev="5" TypeName="БМРЗ-ВВ-31-12" ParsingVariant="IEC104Device">
+          <DescDev>
+            <NumSource>2</NumSource>
+            <NumECU>2</NumECU>
+            <NumDev>5</NumDev>
+            <AddressSpace>7000</AddressSpace>
+            <TypeContextMenu name="" />
+            <TypeName>БМРЗ-ВВ-31-12</TypeName>
+            <nameR>БМРЗ-ВВ-31-12</nameR>
+            <nameELowLevel>БМРЗ-ВВ-31-12</nameELowLevel>
+            <nameEHighLevel>TБМРЗ-ВВ-31-12</nameEHighLevel>
+            <DescDev>
+              <DescDev>5#БМРЗ-ВВ-31-12</DescDev>
+            </DescDev>
+          </DescDev>
+        </Device>
+        <Device objectGUID="518" enable="True" NumECU="2" NumDev="6" TypeName="БМРЗ-КЛ-33-12" ParsingVariant="IEC104Device">
+          <DescDev>
+            <NumSource>2</NumSource>
+            <NumECU>2</NumECU>
+            <NumDev>6</NumDev>
+            <AddressSpace>7000</AddressSpace>
+            <TypeContextMenu name="" />
+            <TypeName>БМРЗ-КЛ-33-12</TypeName>
+            <nameR>БМРЗ-КЛ-33-12</nameR>
+            <nameELowLevel>БМРЗ-КЛ-33-12</nameELowLevel>
+            <nameEHighLevel>TБМРЗ-КЛ-33-12</nameEHighLevel>
+            <DescDev>
+              <DescDev>6#БМРЗ-КЛ-33-12</DescDev>
+            </DescDev>
+          </DescDev>
+        </Device>
+        <Device objectGUID="519" enable="True" NumECU="2" NumDev="7" TypeName="БМРЗ-КЛ-33-12" ParsingVariant="IEC104Device">
+          <DescDev>
+            <NumSource>2</NumSource>
+            <NumECU>2</NumECU>
+            <NumDev>7</NumDev>
+            <AddressSpace>7000</AddressSpace>
+            <TypeContextMenu name="" />
+            <TypeName>БМРЗ-КЛ-33-12</TypeName>
+            <nameR>БМРЗ-КЛ-33-12</nameR>
+            <nameELowLevel>БМРЗ-КЛ-33-12</nameELowLevel>
+            <nameEHighLevel>TБМРЗ-КЛ-33-12</nameEHighLevel>
+            <DescDev>
+              <DescDev>7#БМРЗ-КЛ-33-12</DescDev>
+            </DescDev>
+          </DescDev>
+        </Device>
+        <Device objectGUID="520" enable="True" NumECU="2" NumDev="8" TypeName="БММРЧ" ParsingVariant="IEC104Device">
+          <DescDev>
+            <NumSource>2</NumSource>
+            <NumECU>2</NumECU>
+            <NumDev>8</NumDev>
+            <AddressSpace>7000</AddressSpace>
+            <TypeContextMenu name="" />
+            <TypeName>БММРЧ</TypeName>
+            <nameR>БММРЧ</nameR>
+            <nameELowLevel>БММРЧ</nameELowLevel>
+            <nameEHighLevel>TБММРЧ</nameEHighLevel>
+            <DescDev>
+              <DescDev>8#БММРЧ</DescDev>
+            </DescDev>
+          </DescDev>
+        </Device>
+        <Device objectGUID="521" enable="True" NumECU="2" NumDev="9" TypeName="БМРЗ-КЛ-33-12" ParsingVariant="IEC104Device">
+          <DescDev>
+            <NumSource>2</NumSource>
+            <NumECU>2</NumECU>
+            <NumDev>9</NumDev>
+            <AddressSpace>7000</AddressSpace>
+            <TypeContextMenu name="" />
+            <TypeName>БМРЗ-КЛ-33-12</TypeName>
+            <nameR>БМРЗ-КЛ-33-12</nameR>
+            <nameELowLevel>БМРЗ-КЛ-33-12</nameELowLevel>
+            <nameEHighLevel>TБМРЗ-КЛ-33-12</nameEHighLevel>
+            <DescDev>
+              <DescDev>9#БМРЗ-КЛ-33-12</DescDev>
+            </DescDev>
+          </DescDev>
+        </Device>
+        <Device objectGUID="522" enable="True" NumECU="2" NumDev="10" TypeName="БМРЗ-КЛ-33-12" ParsingVariant="IEC104Device">
+          <DescDev>
+            <NumSource>2</NumSource>
+            <NumECU>2</NumECU>
+            <NumDev>10</NumDev>
+            <AddressSpace>7000</AddressSpace>
+            <TypeContextMenu name="" />
+            <TypeName>БМРЗ-КЛ-33-12</TypeName>
+            <nameR>БМРЗ-КЛ-33-12</nameR>
+            <nameELowLevel>БМРЗ-КЛ-33-12</nameELowLevel>
+            <nameEHighLevel>TБМРЗ-КЛ-33-12</nameEHighLevel>
+            <DescDev>
+              <DescDev>10#БМРЗ-КЛ-33-12</DescDev>
+            </DescDev>
+          </DescDev>
+        </Device>
+        <Device objectGUID="523" enable="True" NumECU="2" NumDev="11" TypeName="БМРЗ-КЛ-33-12" ParsingVariant="IEC104Device">
+          <DescDev>
+            <NumSource>2</NumSource>
+            <NumECU>2</NumECU>
+            <NumDev>11</NumDev>
+            <AddressSpace>7000</AddressSpace>
+            <TypeContextMenu name="" />
+            <TypeName>БМРЗ-КЛ-33-12</TypeName>
+            <nameR>БМРЗ-КЛ-33-12</nameR>
+            <nameELowLevel>БМРЗ-КЛ-33-12</nameELowLevel>
+            <nameEHighLevel>TБМРЗ-КЛ-33-12</nameEHighLevel>
+            <DescDev>
+              <DescDev>11#БМРЗ-КЛ-33-12</DescDev>
+            </DescDev>
+          </DescDev>
+        </Device>
+        <Device objectGUID="524" enable="True" NumECU="2" NumDev="12" TypeName="БМРЗ-КЛ-33-12" ParsingVariant="IEC104Device">
+          <DescDev>
+            <NumSource>2</NumSource>
+            <NumECU>2</NumECU>
+            <NumDev>12</NumDev>
+            <AddressSpace>7000</AddressSpace>
+            <TypeContextMenu name="" />
+            <TypeName>БМРЗ-КЛ-33-12</TypeName>
+            <nameR>БМРЗ-КЛ-33-12</nameR>
+            <nameELowLevel>БМРЗ-КЛ-33-12</nameELowLevel>
+            <nameEHighLevel>TБМРЗ-КЛ-33-12</nameEHighLevel>
+            <DescDev>
+              <DescDev>12#БМРЗ-КЛ-33-12</DescDev>
+            </DescDev>
+          </DescDev>
+        </Device>
+        <Device objectGUID="525" enable="True" NumECU="2" NumDev="13" TypeName="БМРЗ-КЛ-33-12" ParsingVariant="IEC104Device">
+          <DescDev>
+            <NumSource>2</NumSource>
+            <NumECU>2</NumECU>
+            <NumDev>13</NumDev>
+            <AddressSpace>7000</AddressSpace>
+            <TypeContextMenu name="" />
+            <TypeName>БМРЗ-КЛ-33-12</TypeName>
+            <nameR>БМРЗ-КЛ-33-12</nameR>
+            <nameELowLevel>БМРЗ-КЛ-33-12</nameELowLevel>
+            <nameEHighLevel>TБМРЗ-КЛ-33-12</nameEHighLevel>
+            <DescDev>
+              <DescDev>13#БМРЗ-КЛ-33-12</DescDev>
+            </DescDev>
+          </DescDev>
+        </Device>
+        <Device objectGUID="526" enable="True" NumECU="2" NumDev="14" TypeName="БМРЗ-КЛ-33-12" ParsingVariant="IEC104Device">
+          <DescDev>
+            <NumSource>2</NumSource>
+            <NumECU>2</NumECU>
+            <NumDev>14</NumDev>
+            <AddressSpace>7000</AddressSpace>
+            <TypeContextMenu name="" />
+            <TypeName>БМРЗ-КЛ-33-12</TypeName>
+            <nameR>БМРЗ-КЛ-33-12</nameR>
+            <nameELowLevel>БМРЗ-КЛ-33-12</nameELowLevel>
+            <nameEHighLevel>TБМРЗ-КЛ-33-12</nameEHighLevel>
+            <DescDev>
+              <DescDev>14#БМРЗ-КЛ-33-12</DescDev>
+            </DescDev>
+          </DescDev>
+        </Device>
+        <Device objectGUID="527" enable="True" NumECU="2" NumDev="15" TypeName="БМРЗ-КЛ-33-12" ParsingVariant="IEC104Device">
+          <DescDev>
+            <NumSource>2</NumSource>
+            <NumECU>2</NumECU>
+            <NumDev>15</NumDev>
+            <AddressSpace>7000</AddressSpace>
+            <TypeContextMenu name="" />
+            <TypeName>БМРЗ-КЛ-33-12</TypeName>
+            <nameR>БМРЗ-КЛ-33-12</nameR>
+            <nameELowLevel>БМРЗ-КЛ-33-12</nameELowLevel>
+            <nameEHighLevel>TБМРЗ-КЛ-33-12</nameEHighLevel>
+            <DescDev>
+              <DescDev>15#БМРЗ-КЛ-33-12</DescDev>
+            </DescDev>
+          </DescDev>
+        </Device>
+        <Device objectGUID="528" enable="True" NumECU="2" NumDev="16" TypeName="БМРЗ-КЛ-33-12" ParsingVariant="IEC104Device">
+          <DescDev>
+            <NumSource>2</NumSource>
+            <NumECU>2</NumECU>
+            <NumDev>16</NumDev>
+            <AddressSpace>7000</AddressSpace>
+            <TypeContextMenu name="" />
+            <TypeName>БМРЗ-КЛ-33-12</TypeName>
+            <nameR>БМРЗ-КЛ-33-12</nameR>
+            <nameELowLevel>БМРЗ-КЛ-33-12</nameELowLevel>
+            <nameEHighLevel>TБМРЗ-КЛ-33-12</nameEHighLevel>
+            <DescDev>
+              <DescDev>16#БМРЗ-КЛ-33-12</DescDev>
+            </DescDev>
+          </DescDev>
+        </Device>
+        <Device objectGUID="529" enable="True" NumECU="2" NumDev="17" TypeName="БМРЗ-КЛ-33-12" ParsingVariant="IEC104Device">
+          <DescDev>
+            <NumSource>2</NumSource>
+            <NumECU>2</NumECU>
+            <NumDev>17</NumDev>
+            <AddressSpace>7000</AddressSpace>
+            <TypeContextMenu name="" />
+            <TypeName>БМРЗ-КЛ-33-12</TypeName>
+            <nameR>БМРЗ-КЛ-33-12</nameR>
+            <nameELowLevel>БМРЗ-КЛ-33-12</nameELowLevel>
+            <nameEHighLevel>TБМРЗ-КЛ-33-12</nameEHighLevel>
+            <DescDev>
+              <DescDev>17#БМРЗ-КЛ-33-12</DescDev>
+            </DescDev>
+          </DescDev>
+        </Device>
+        <Device objectGUID="530" enable="True" NumECU="2" NumDev="18" TypeName="БМРЗ-КЛ-33-12" ParsingVariant="IEC104Device">
+          <DescDev>
+            <NumSource>2</NumSource>
+            <NumECU>2</NumECU>
+            <NumDev>18</NumDev>
+            <AddressSpace>7000</AddressSpace>
+            <TypeContextMenu name="" />
+            <TypeName>БМРЗ-КЛ-33-12</TypeName>
+            <nameR>БМРЗ-КЛ-33-12</nameR>
+            <nameELowLevel>БМРЗ-КЛ-33-12</nameELowLevel>
+            <nameEHighLevel>TБМРЗ-КЛ-33-12</nameEHighLevel>
+            <DescDev>
+              <DescDev>18#БМРЗ-КЛ-33-12</DescDev>
+            </DescDev>
+          </DescDev>
+        </Device>
+        <Device objectGUID="531" enable="True" NumECU="2" NumDev="19" TypeName="БМРЗ-КЛ-33-12" ParsingVariant="IEC104Device">
+          <DescDev>
+            <NumSource>2</NumSource>
+            <NumECU>2</NumECU>
+            <NumDev>19</NumDev>
+            <AddressSpace>7000</AddressSpace>
+            <TypeContextMenu name="" />
+            <TypeName>БМРЗ-КЛ-33-12</TypeName>
+            <nameR>БМРЗ-КЛ-33-12</nameR>
+            <nameELowLevel>БМРЗ-КЛ-33-12</nameELowLevel>
+            <nameEHighLevel>TБМРЗ-КЛ-33-12</nameEHighLevel>
+            <DescDev>
+              <DescDev>19#БМРЗ-КЛ-33-12</DescDev>
+            </DescDev>
+          </DescDev>
+        </Device>
+        <Device objectGUID="532" enable="True" NumECU="2" NumDev="20" TypeName="БМРЗ-КЛ-33-12" ParsingVariant="IEC104Device">
+          <DescDev>
+            <NumSource>2</NumSource>
+            <NumECU>2</NumECU>
+            <NumDev>20</NumDev>
+            <AddressSpace>7000</AddressSpace>
+            <TypeContextMenu name="" />
+            <TypeName>БМРЗ-КЛ-33-12</TypeName>
+            <nameR>БМРЗ-КЛ-33-12</nameR>
+            <nameELowLevel>БМРЗ-КЛ-33-12</nameELowLevel>
+            <nameEHighLevel>TБМРЗ-КЛ-33-12</nameEHighLevel>
+            <DescDev>
+              <DescDev>20#БМРЗ-КЛ-33-12</DescDev>
+            </DescDev>
+          </DescDev>
+        </Device>
+        <Device objectGUID="533" enable="True" NumECU="2" NumDev="21" TypeName="БМРЗ-КЛ-33-12" ParsingVariant="IEC104Device">
+          <DescDev>
+            <NumSource>2</NumSource>
+            <NumECU>2</NumECU>
+            <NumDev>21</NumDev>
+            <AddressSpace>7000</AddressSpace>
+            <TypeContextMenu name="" />
+            <TypeName>БМРЗ-КЛ-33-12</TypeName>
+            <nameR>БМРЗ-КЛ-33-12</nameR>
+            <nameELowLevel>БМРЗ-КЛ-33-12</nameELowLevel>
+            <nameEHighLevel>TБМРЗ-КЛ-33-12</nameEHighLevel>
+            <DescDev>
+              <DescDev>21#БМРЗ-КЛ-33-12</DescDev>
+            </DescDev>
+          </DescDev>
+        </Device>
+        <Device objectGUID="534" enable="True" NumECU="2" NumDev="22" TypeName="БМРЗ-КЛ-33-12" ParsingVariant="IEC104Device">
+          <DescDev>
+            <NumSource>2</NumSource>
+            <NumECU>2</NumECU>
+            <NumDev>22</NumDev>
+            <AddressSpace>7000</AddressSpace>
+            <TypeContextMenu name="" />
+            <TypeName>БМРЗ-КЛ-33-12</TypeName>
+            <nameR>БМРЗ-КЛ-33-12</nameR>
+            <nameELowLevel>БМРЗ-КЛ-33-12</nameELowLevel>
+            <nameEHighLevel>TБМРЗ-КЛ-33-12</nameEHighLevel>
+            <DescDev>
+              <DescDev>22#БМРЗ-КЛ-33-12</DescDev>
+            </DescDev>
+          </DescDev>
+        </Device>
+        <Device objectGUID="535" enable="True" NumECU="2" NumDev="23" TypeName="БМРЗ-КЛ-33-12" ParsingVariant="IEC104Device">
+          <DescDev>
+            <NumSource>2</NumSource>
+            <NumECU>2</NumECU>
+            <NumDev>23</NumDev>
+            <AddressSpace>7000</AddressSpace>
+            <TypeContextMenu name="" />
+            <TypeName>БМРЗ-КЛ-33-12</TypeName>
+            <nameR>БМРЗ-КЛ-33-12</nameR>
+            <nameELowLevel>БМРЗ-КЛ-33-12</nameELowLevel>
+            <nameEHighLevel>TБМРЗ-КЛ-33-12</nameEHighLevel>
+            <DescDev>
+              <DescDev>23#БМРЗ-КЛ-33-12</DescDev>
+            </DescDev>
+          </DescDev>
+        </Device>
+        <Device objectGUID="536" enable="True" NumECU="2" NumDev="24" TypeName="БМРЗ-КЛ-33-12" ParsingVariant="IEC104Device">
+          <DescDev>
+            <NumSource>2</NumSource>
+            <NumECU>2</NumECU>
+            <NumDev>24</NumDev>
+            <AddressSpace>7000</AddressSpace>
+            <TypeContextMenu name="" />
+            <TypeName>БМРЗ-КЛ-33-12</TypeName>
+            <nameR>БМРЗ-КЛ-33-12</nameR>
+            <nameELowLevel>БМРЗ-КЛ-33-12</nameELowLevel>
+            <nameEHighLevel>TБМРЗ-КЛ-33-12</nameEHighLevel>
+            <DescDev>
+              <DescDev>24#БМРЗ-КЛ-33-12</DescDev>
+            </DescDev>
+          </DescDev>
+        </Device>
+        <Device objectGUID="537" enable="True" NumECU="2" NumDev="25" TypeName="БМРЗ-КЛ-33-12" ParsingVariant="IEC104Device">
+          <DescDev>
+            <NumSource>2</NumSource>
+            <NumECU>2</NumECU>
+            <NumDev>25</NumDev>
+            <AddressSpace>7000</AddressSpace>
+            <TypeContextMenu name="" />
+            <TypeName>БМРЗ-КЛ-33-12</TypeName>
+            <nameR>БМРЗ-КЛ-33-12</nameR>
+            <nameELowLevel>БМРЗ-КЛ-33-12</nameELowLevel>
+            <nameEHighLevel>TБМРЗ-КЛ-33-12</nameEHighLevel>
+            <DescDev>
+              <DescDev>25#БМРЗ-КЛ-33-12</DescDev>
+            </DescDev>
+          </DescDev>
+        </Device>
+        <Device objectGUID="538" enable="True" NumECU="2" NumDev="26" TypeName="БМРЗ-КЛ-33-12" ParsingVariant="IEC104Device">
+          <DescDev>
+            <NumSource>2</NumSource>
+            <NumECU>2</NumECU>
+            <NumDev>26</NumDev>
+            <AddressSpace>7000</AddressSpace>
+            <TypeContextMenu name="" />
+            <TypeName>БМРЗ-КЛ-33-12</TypeName>
+            <nameR>БМРЗ-КЛ-33-12</nameR>
+            <nameELowLevel>БМРЗ-КЛ-33-12</nameELowLevel>
+            <nameEHighLevel>TБМРЗ-КЛ-33-12</nameEHighLevel>
+            <DescDev>
+              <DescDev>26#БМРЗ-КЛ-33-12</DescDev>
+            </DescDev>
+          </DescDev>
+        </Device>
+        <Device objectGUID="539" enable="True" NumECU="2" NumDev="27" TypeName="ОВОД-МД" ParsingVariant="IEC104Device">
+          <DescDev>
+            <NumSource>2</NumSource>
+            <NumECU>2</NumECU>
+            <NumDev>27</NumDev>
+            <AddressSpace>7000</AddressSpace>
+            <TypeContextMenu name="" />
+            <TypeName>ОВОД-МД</TypeName>
+            <nameR>ОВОД-МД</nameR>
+            <nameELowLevel>ОВОД-МД</nameELowLevel>
+            <nameEHighLevel>TОВОД-МД</nameEHighLevel>
+            <DescDev>
+              <DescDev>27#ОВОД-МД</DescDev>
+            </DescDev>
+          </DescDev>
+        </Device>
+        <Device objectGUID="540" enable="True" NumECU="2" NumDev="28" TypeName="ОВОД-МД" ParsingVariant="IEC104Device">
+          <DescDev>
+            <NumSource>2</NumSource>
+            <NumECU>2</NumECU>
+            <NumDev>28</NumDev>
+            <AddressSpace>7000</AddressSpace>
+            <TypeContextMenu name="" />
+            <TypeName>ОВОД-МД</TypeName>
+            <nameR>ОВОД-МД</nameR>
+            <nameELowLevel>ОВОД-МД</nameELowLevel>
+            <nameEHighLevel>TОВОД-МД</nameEHighLevel>
+            <DescDev>
+              <DescDev>28#ОВОД-МД</DescDev>
+            </DescDev>
+          </DescDev>
+        </Device>
+        <Device objectGUID="541" enable="True" NumECU="2" NumDev="29" TypeName="ОВОД-МД" ParsingVariant="IEC104Device">
+          <DescDev>
+            <NumSource>2</NumSource>
+            <NumECU>2</NumECU>
+            <NumDev>29</NumDev>
+            <AddressSpace>7000</AddressSpace>
+            <TypeContextMenu name="" />
+            <TypeName>ОВОД-МД</TypeName>
+            <nameR>ОВОД-МД</nameR>
+            <nameELowLevel>ОВОД-МД</nameELowLevel>
+            <nameEHighLevel>TОВОД-МД</nameEHighLevel>
+            <DescDev>
+              <DescDev>29#ОВОД-МД</DescDev>
+            </DescDev>
+          </DescDev>
+        </Device>
+        <Device objectGUID="542" enable="True" NumECU="2" NumDev="30" TypeName="ОВОД-МД" ParsingVariant="IEC104Device">
+          <DescDev>
+            <NumSource>2</NumSource>
+            <NumECU>2</NumECU>
+            <NumDev>30</NumDev>
+            <AddressSpace>7000</AddressSpace>
+            <TypeContextMenu name="" />
+            <TypeName>ОВОД-МД</TypeName>
+            <nameR>ОВОД-МД</nameR>
+            <nameELowLevel>ОВОД-МД</nameELowLevel>
+            <nameEHighLevel>TОВОД-МД</nameEHighLevel>
+            <DescDev>
+              <DescDev>30#ОВОД-МД</DescDev>
+            </DescDev>
+          </DescDev>
+        </Device>
+      </ECUDevices>
+      <DescDev>
+        <DescDev>31#AF_ECU</DescDev>
+      </DescDev>
+    </SourceECU>
+    <SourceECU objectGUID="795" name="КСДУ1" enable="true" numECU="3" describe="КСДУ1" typeECU="AF_ECU" TypeName="AF_ECU" ECUadr="192.168.240.203" CommonAddressASDU="0" FlagPreliminarySelectCMD="false" Port="2404">
+      <ECUDevices>
+        <Device objectGUID="768" enable="True" NumECU="3" NumDev="0" TypeName="Головное устройство" ParsingVariant="IEC104Device">
+          <DescDev>
+            <NumSource>3</NumSource>
+            <NumECU>3</NumECU>
+            <NumDev>0</NumDev>
+            <AddressSpace>7000</AddressSpace>
+            <TypeContextMenu name="" />
+            <TypeName>Головное устройство</TypeName>
+            <nameR>Головное устройство</nameR>
+            <nameELowLevel>Головное устройство</nameELowLevel>
+            <nameEHighLevel>TГоловное устройство</nameEHighLevel>
+            <DescDev>
+              <DescDev>0#Головное устройство</DescDev>
+            </DescDev>
+          </DescDev>
+        </Device>
+        <Device objectGUID="769" enable="True" NumECU="3" NumDev="1" TypeName="БМРЗ-КЛ-33-12" ParsingVariant="IEC104Device">
+          <DescDev>
+            <NumSource>3</NumSource>
+            <NumECU>3</NumECU>
+            <NumDev>1</NumDev>
+            <AddressSpace>7000</AddressSpace>
+            <TypeContextMenu name="" />
+            <TypeName>БМРЗ-КЛ-33-12</TypeName>
+            <nameR>БМРЗ-КЛ-33-12</nameR>
+            <nameELowLevel>БМРЗ-КЛ-33-12</nameELowLevel>
+            <nameEHighLevel>TБМРЗ-КЛ-33-12</nameEHighLevel>
+            <DescDev>
+              <DescDev>1#БМРЗ-КЛ-33-12</DescDev>
+            </DescDev>
+          </DescDev>
+        </Device>
+        <Device objectGUID="770" enable="True" NumECU="3" NumDev="2" TypeName="БМРЗ-КЛ-33-12" ParsingVariant="IEC104Device">
+          <DescDev>
+            <NumSource>3</NumSource>
+            <NumECU>3</NumECU>
+            <NumDev>2</NumDev>
+            <AddressSpace>7000</AddressSpace>
+            <TypeContextMenu name="" />
+            <TypeName>БМРЗ-КЛ-33-12</TypeName>
+            <nameR>БМРЗ-КЛ-33-12</nameR>
+            <nameELowLevel>БМРЗ-КЛ-33-12</nameELowLevel>
+            <nameEHighLevel>TБМРЗ-КЛ-33-12</nameEHighLevel>
+            <DescDev>
+              <DescDev>2#БМРЗ-КЛ-33-12</DescDev>
+            </DescDev>
+          </DescDev>
+        </Device>
+        <Device objectGUID="771" enable="True" NumECU="3" NumDev="3" TypeName="БМРЗ-КЛ-33-12" ParsingVariant="IEC104Device">
+          <DescDev>
+            <NumSource>3</NumSource>
+            <NumECU>3</NumECU>
+            <NumDev>3</NumDev>
+            <AddressSpace>7000</AddressSpace>
+            <TypeContextMenu name="" />
+            <TypeName>БМРЗ-КЛ-33-12</TypeName>
+            <nameR>БМРЗ-КЛ-33-12</nameR>
+            <nameELowLevel>БМРЗ-КЛ-33-12</nameELowLevel>
+            <nameEHighLevel>TБМРЗ-КЛ-33-12</nameEHighLevel>
+            <DescDev>
+              <DescDev>3#БМРЗ-КЛ-33-12</DescDev>
+            </DescDev>
+          </DescDev>
+        </Device>
+        <Device objectGUID="772" enable="True" NumECU="3" NumDev="4" TypeName="БМРЗ-КЛ-33-12" ParsingVariant="IEC104Device">
+          <DescDev>
+            <NumSource>3</NumSource>
+            <NumECU>3</NumECU>
+            <NumDev>4</NumDev>
+            <AddressSpace>7000</AddressSpace>
+            <TypeContextMenu name="" />
+            <TypeName>БМРЗ-КЛ-33-12</TypeName>
+            <nameR>БМРЗ-КЛ-33-12</nameR>
+            <nameELowLevel>БМРЗ-КЛ-33-12</nameELowLevel>
+            <nameEHighLevel>TБМРЗ-КЛ-33-12</nameEHighLevel>
+            <DescDev>
+              <DescDev>4#БМРЗ-КЛ-33-12</DescDev>
+            </DescDev>
+          </DescDev>
+        </Device>
+        <Device objectGUID="773" enable="True" NumECU="3" NumDev="5" TypeName="БМРЗ-ВВ-31-12" ParsingVariant="IEC104Device">
+          <DescDev>
+            <NumSource>3</NumSource>
+            <NumECU>3</NumECU>
+            <NumDev>5</NumDev>
+            <AddressSpace>7000</AddressSpace>
+            <TypeContextMenu name="" />
+            <TypeName>БМРЗ-ВВ-31-12</TypeName>
+            <nameR>БМРЗ-ВВ-31-12</nameR>
+            <nameELowLevel>БМРЗ-ВВ-31-12</nameELowLevel>
+            <nameEHighLevel>TБМРЗ-ВВ-31-12</nameEHighLevel>
+            <DescDev>
+              <DescDev>5#БМРЗ-ВВ-31-12</DescDev>
+            </DescDev>
+          </DescDev>
+        </Device>
+        <Device objectGUID="774" enable="True" NumECU="3" NumDev="6" TypeName="БМРЗ-КЛ-33-12" ParsingVariant="IEC104Device">
+          <DescDev>
+            <NumSource>3</NumSource>
+            <NumECU>3</NumECU>
+            <NumDev>6</NumDev>
+            <AddressSpace>7000</AddressSpace>
+            <TypeContextMenu name="" />
+            <TypeName>БМРЗ-КЛ-33-12</TypeName>
+            <nameR>БМРЗ-КЛ-33-12</nameR>
+            <nameELowLevel>БМРЗ-КЛ-33-12</nameELowLevel>
+            <nameEHighLevel>TБМРЗ-КЛ-33-12</nameEHighLevel>
+            <DescDev>
+              <DescDev>6#БМРЗ-КЛ-33-12</DescDev>
+            </DescDev>
+          </DescDev>
+        </Device>
+        <Device objectGUID="775" enable="True" NumECU="3" NumDev="7" TypeName="БМРЗ-КЛ-33-12" ParsingVariant="IEC104Device">
+          <DescDev>
+            <NumSource>3</NumSource>
+            <NumECU>3</NumECU>
+            <NumDev>7</NumDev>
+            <AddressSpace>7000</AddressSpace>
+            <TypeContextMenu name="" />
+            <TypeName>БМРЗ-КЛ-33-12</TypeName>
+            <nameR>БМРЗ-КЛ-33-12</nameR>
+            <nameELowLevel>БМРЗ-КЛ-33-12</nameELowLevel>
+            <nameEHighLevel>TБМРЗ-КЛ-33-12</nameEHighLevel>
+            <DescDev>
+              <DescDev>7#БМРЗ-КЛ-33-12</DescDev>
+            </DescDev>
+          </DescDev>
+        </Device>
+        <Device objectGUID="776" enable="True" NumECU="3" NumDev="8" TypeName="БММРЧ" ParsingVariant="IEC104Device">
+          <DescDev>
+            <NumSource>3</NumSource>
+            <NumECU>3</NumECU>
+            <NumDev>8</NumDev>
+            <AddressSpace>7000</AddressSpace>
+            <TypeContextMenu name="" />
+            <TypeName>БММРЧ</TypeName>
+            <nameR>БММРЧ</nameR>
+            <nameELowLevel>БММРЧ</nameELowLevel>
+            <nameEHighLevel>TБММРЧ</nameEHighLevel>
+            <DescDev>
+              <DescDev>8#БММРЧ</DescDev>
+            </DescDev>
+          </DescDev>
+        </Device>
+        <Device objectGUID="777" enable="True" NumECU="3" NumDev="9" TypeName="БМРЗ-КЛ-33-12" ParsingVariant="IEC104Device">
+          <DescDev>
+            <NumSource>3</NumSource>
+            <NumECU>3</NumECU>
+            <NumDev>9</NumDev>
+            <AddressSpace>7000</AddressSpace>
+            <TypeContextMenu name="" />
+            <TypeName>БМРЗ-КЛ-33-12</TypeName>
+            <nameR>БМРЗ-КЛ-33-12</nameR>
+            <nameELowLevel>БМРЗ-КЛ-33-12</nameELowLevel>
+            <nameEHighLevel>TБМРЗ-КЛ-33-12</nameEHighLevel>
+            <DescDev>
+              <DescDev>9#БМРЗ-КЛ-33-12</DescDev>
+            </DescDev>
+          </DescDev>
+        </Device>
+        <Device objectGUID="778" enable="True" NumECU="3" NumDev="10" TypeName="БМРЗ-КЛ-33-12" ParsingVariant="IEC104Device">
+          <DescDev>
+            <NumSource>3</NumSource>
+            <NumECU>3</NumECU>
+            <NumDev>10</NumDev>
+            <AddressSpace>7000</AddressSpace>
+            <TypeContextMenu name="" />
+            <TypeName>БМРЗ-КЛ-33-12</TypeName>
+            <nameR>БМРЗ-КЛ-33-12</nameR>
+            <nameELowLevel>БМРЗ-КЛ-33-12</nameELowLevel>
+            <nameEHighLevel>TБМРЗ-КЛ-33-12</nameEHighLevel>
+            <DescDev>
+              <DescDev>10#БМРЗ-КЛ-33-12</DescDev>
+            </DescDev>
+          </DescDev>
+        </Device>
+        <Device objectGUID="779" enable="True" NumECU="3" NumDev="11" TypeName="БМРЗ-КЛ-33-12" ParsingVariant="IEC104Device">
+          <DescDev>
+            <NumSource>3</NumSource>
+            <NumECU>3</NumECU>
+            <NumDev>11</NumDev>
+            <AddressSpace>7000</AddressSpace>
+            <TypeContextMenu name="" />
+            <TypeName>БМРЗ-КЛ-33-12</TypeName>
+            <nameR>БМРЗ-КЛ-33-12</nameR>
+            <nameELowLevel>БМРЗ-КЛ-33-12</nameELowLevel>
+            <nameEHighLevel>TБМРЗ-КЛ-33-12</nameEHighLevel>
+            <DescDev>
+              <DescDev>11#БМРЗ-КЛ-33-12</DescDev>
+            </DescDev>
+          </DescDev>
+        </Device>
+        <Device objectGUID="780" enable="True" NumECU="3" NumDev="12" TypeName="БМРЗ-КЛ-33-12" ParsingVariant="IEC104Device">
+          <DescDev>
+            <NumSource>3</NumSource>
+            <NumECU>3</NumECU>
+            <NumDev>12</NumDev>
+            <AddressSpace>7000</AddressSpace>
+            <TypeContextMenu name="" />
+            <TypeName>БМРЗ-КЛ-33-12</TypeName>
+            <nameR>БМРЗ-КЛ-33-12</nameR>
+            <nameELowLevel>БМРЗ-КЛ-33-12</nameELowLevel>
+            <nameEHighLevel>TБМРЗ-КЛ-33-12</nameEHighLevel>
+            <DescDev>
+              <DescDev>12#БМРЗ-КЛ-33-12</DescDev>
+            </DescDev>
+          </DescDev>
+        </Device>
+        <Device objectGUID="781" enable="True" NumECU="3" NumDev="13" TypeName="БМРЗ-КЛ-33-12" ParsingVariant="IEC104Device">
+          <DescDev>
+            <NumSource>3</NumSource>
+            <NumECU>3</NumECU>
+            <NumDev>13</NumDev>
+            <AddressSpace>7000</AddressSpace>
+            <TypeContextMenu name="" />
+            <TypeName>БМРЗ-КЛ-33-12</TypeName>
+            <nameR>БМРЗ-КЛ-33-12</nameR>
+            <nameELowLevel>БМРЗ-КЛ-33-12</nameELowLevel>
+            <nameEHighLevel>TБМРЗ-КЛ-33-12</nameEHighLevel>
+            <DescDev>
+              <DescDev>13#БМРЗ-КЛ-33-12</DescDev>
+            </DescDev>
+          </DescDev>
+        </Device>
+        <Device objectGUID="782" enable="True" NumECU="3" NumDev="14" TypeName="БМРЗ-КЛ-33-12" ParsingVariant="IEC104Device">
+          <DescDev>
+            <NumSource>3</NumSource>
+            <NumECU>3</NumECU>
+            <NumDev>14</NumDev>
+            <AddressSpace>7000</AddressSpace>
+            <TypeContextMenu name="" />
+            <TypeName>БМРЗ-КЛ-33-12</TypeName>
+            <nameR>БМРЗ-КЛ-33-12</nameR>
+            <nameELowLevel>БМРЗ-КЛ-33-12</nameELowLevel>
+            <nameEHighLevel>TБМРЗ-КЛ-33-12</nameEHighLevel>
+            <DescDev>
+              <DescDev>14#БМРЗ-КЛ-33-12</DescDev>
+            </DescDev>
+          </DescDev>
+        </Device>
+        <Device objectGUID="783" enable="True" NumECU="3" NumDev="15" TypeName="БМРЗ-КЛ-33-12" ParsingVariant="IEC104Device">
+          <DescDev>
+            <NumSource>3</NumSource>
+            <NumECU>3</NumECU>
+            <NumDev>15</NumDev>
+            <AddressSpace>7000</AddressSpace>
+            <TypeContextMenu name="" />
+            <TypeName>БМРЗ-КЛ-33-12</TypeName>
+            <nameR>БМРЗ-КЛ-33-12</nameR>
+            <nameELowLevel>БМРЗ-КЛ-33-12</nameELowLevel>
+            <nameEHighLevel>TБМРЗ-КЛ-33-12</nameEHighLevel>
+            <DescDev>
+              <DescDev>15#БМРЗ-КЛ-33-12</DescDev>
+            </DescDev>
+          </DescDev>
+        </Device>
+        <Device objectGUID="784" enable="True" NumECU="3" NumDev="16" TypeName="БМРЗ-КЛ-33-12" ParsingVariant="IEC104Device">
+          <DescDev>
+            <NumSource>3</NumSource>
+            <NumECU>3</NumECU>
+            <NumDev>16</NumDev>
+            <AddressSpace>7000</AddressSpace>
+            <TypeContextMenu name="" />
+            <TypeName>БМРЗ-КЛ-33-12</TypeName>
+            <nameR>БМРЗ-КЛ-33-12</nameR>
+            <nameELowLevel>БМРЗ-КЛ-33-12</nameELowLevel>
+            <nameEHighLevel>TБМРЗ-КЛ-33-12</nameEHighLevel>
+            <DescDev>
+              <DescDev>16#БМРЗ-КЛ-33-12</DescDev>
+            </DescDev>
+          </DescDev>
+        </Device>
+        <Device objectGUID="785" enable="True" NumECU="3" NumDev="17" TypeName="БМРЗ-КЛ-33-12" ParsingVariant="IEC104Device">
+          <DescDev>
+            <NumSource>3</NumSource>
+            <NumECU>3</NumECU>
+            <NumDev>17</NumDev>
+            <AddressSpace>7000</AddressSpace>
+            <TypeContextMenu name="" />
+            <TypeName>БМРЗ-КЛ-33-12</TypeName>
+            <nameR>БМРЗ-КЛ-33-12</nameR>
+            <nameELowLevel>БМРЗ-КЛ-33-12</nameELowLevel>
+            <nameEHighLevel>TБМРЗ-КЛ-33-12</nameEHighLevel>
+            <DescDev>
+              <DescDev>17#БМРЗ-КЛ-33-12</DescDev>
+            </DescDev>
+          </DescDev>
+        </Device>
+        <Device objectGUID="786" enable="True" NumECU="3" NumDev="18" TypeName="БМРЗ-КЛ-33-12" ParsingVariant="IEC104Device">
+          <DescDev>
+            <NumSource>3</NumSource>
+            <NumECU>3</NumECU>
+            <NumDev>18</NumDev>
+            <AddressSpace>7000</AddressSpace>
+            <TypeContextMenu name="" />
+            <TypeName>БМРЗ-КЛ-33-12</TypeName>
+            <nameR>БМРЗ-КЛ-33-12</nameR>
+            <nameELowLevel>БМРЗ-КЛ-33-12</nameELowLevel>
+            <nameEHighLevel>TБМРЗ-КЛ-33-12</nameEHighLevel>
+            <DescDev>
+              <DescDev>18#БМРЗ-КЛ-33-12</DescDev>
+            </DescDev>
+          </DescDev>
+        </Device>
+        <Device objectGUID="787" enable="True" NumECU="3" NumDev="19" TypeName="БМРЗ-КЛ-33-12" ParsingVariant="IEC104Device">
+          <DescDev>
+            <NumSource>3</NumSource>
+            <NumECU>3</NumECU>
+            <NumDev>19</NumDev>
+            <AddressSpace>7000</AddressSpace>
+            <TypeContextMenu name="" />
+            <TypeName>БМРЗ-КЛ-33-12</TypeName>
+            <nameR>БМРЗ-КЛ-33-12</nameR>
+            <nameELowLevel>БМРЗ-КЛ-33-12</nameELowLevel>
+            <nameEHighLevel>TБМРЗ-КЛ-33-12</nameEHighLevel>
+            <DescDev>
+              <DescDev>19#БМРЗ-КЛ-33-12</DescDev>
+            </DescDev>
+          </DescDev>
+        </Device>
+        <Device objectGUID="788" enable="True" NumECU="3" NumDev="20" TypeName="БМРЗ-КЛ-33-12" ParsingVariant="IEC104Device">
+          <DescDev>
+            <NumSource>3</NumSource>
+            <NumECU>3</NumECU>
+            <NumDev>20</NumDev>
+            <AddressSpace>7000</AddressSpace>
+            <TypeContextMenu name="" />
+            <TypeName>БМРЗ-КЛ-33-12</TypeName>
+            <nameR>БМРЗ-КЛ-33-12</nameR>
+            <nameELowLevel>БМРЗ-КЛ-33-12</nameELowLevel>
+            <nameEHighLevel>TБМРЗ-КЛ-33-12</nameEHighLevel>
+            <DescDev>
+              <DescDev>20#БМРЗ-КЛ-33-12</DescDev>
+            </DescDev>
+          </DescDev>
+        </Device>
+        <Device objectGUID="789" enable="True" NumECU="3" NumDev="21" TypeName="БМРЗ-КЛ-33-12" ParsingVariant="IEC104Device">
+          <DescDev>
+            <NumSource>3</NumSource>
+            <NumECU>3</NumECU>
+            <NumDev>21</NumDev>
+            <AddressSpace>7000</AddressSpace>
+            <TypeContextMenu name="" />
+            <TypeName>БМРЗ-КЛ-33-12</TypeName>
+            <nameR>БМРЗ-КЛ-33-12</nameR>
+            <nameELowLevel>БМРЗ-КЛ-33-12</nameELowLevel>
+            <nameEHighLevel>TБМРЗ-КЛ-33-12</nameEHighLevel>
+            <DescDev>
+              <DescDev>21#БМРЗ-КЛ-33-12</DescDev>
+            </DescDev>
+          </DescDev>
+        </Device>
+        <Device objectGUID="790" enable="True" NumECU="3" NumDev="22" TypeName="БМРЗ-КЛ-33-12" ParsingVariant="IEC104Device">
+          <DescDev>
+            <NumSource>3</NumSource>
+            <NumECU>3</NumECU>
+            <NumDev>22</NumDev>
+            <AddressSpace>7000</AddressSpace>
+            <TypeContextMenu name="" />
+            <TypeName>БМРЗ-КЛ-33-12</TypeName>
+            <nameR>БМРЗ-КЛ-33-12</nameR>
+            <nameELowLevel>БМРЗ-КЛ-33-12</nameELowLevel>
+            <nameEHighLevel>TБМРЗ-КЛ-33-12</nameEHighLevel>
+            <DescDev>
+              <DescDev>22#БМРЗ-КЛ-33-12</DescDev>
+            </DescDev>
+          </DescDev>
+        </Device>
+        <Device objectGUID="791" enable="True" NumECU="3" NumDev="23" TypeName="БМРЗ-КЛ-33-12" ParsingVariant="IEC104Device">
+          <DescDev>
+            <NumSource>3</NumSource>
+            <NumECU>3</NumECU>
+            <NumDev>23</NumDev>
+            <AddressSpace>7000</AddressSpace>
+            <TypeContextMenu name="" />
+            <TypeName>БМРЗ-КЛ-33-12</TypeName>
+            <nameR>БМРЗ-КЛ-33-12</nameR>
+            <nameELowLevel>БМРЗ-КЛ-33-12</nameELowLevel>
+            <nameEHighLevel>TБМРЗ-КЛ-33-12</nameEHighLevel>
+            <DescDev>
+              <DescDev>23#БМРЗ-КЛ-33-12</DescDev>
+            </DescDev>
+          </DescDev>
+        </Device>
+        <Device objectGUID="792" enable="True" NumECU="3" NumDev="24" TypeName="БМРЗ-КЛ-33-12" ParsingVariant="IEC104Device">
+          <DescDev>
+            <NumSource>3</NumSource>
+            <NumECU>3</NumECU>
+            <NumDev>24</NumDev>
+            <AddressSpace>7000</AddressSpace>
+            <TypeContextMenu name="" />
+            <TypeName>БМРЗ-КЛ-33-12</TypeName>
+            <nameR>БМРЗ-КЛ-33-12</nameR>
+            <nameELowLevel>БМРЗ-КЛ-33-12</nameELowLevel>
+            <nameEHighLevel>TБМРЗ-КЛ-33-12</nameEHighLevel>
+            <DescDev>
+              <DescDev>24#БМРЗ-КЛ-33-12</DescDev>
+            </DescDev>
+          </DescDev>
+        </Device>
+        <Device objectGUID="793" enable="True" NumECU="3" NumDev="25" TypeName="БМРЗ-КЛ-33-12" ParsingVariant="IEC104Device">
+          <DescDev>
+            <NumSource>3</NumSource>
+            <NumECU>3</NumECU>
+            <NumDev>25</NumDev>
+            <AddressSpace>7000</AddressSpace>
+            <TypeContextMenu name="" />
+            <TypeName>БМРЗ-КЛ-33-12</TypeName>
+            <nameR>БМРЗ-КЛ-33-12</nameR>
+            <nameELowLevel>БМРЗ-КЛ-33-12</nameELowLevel>
+            <nameEHighLevel>TБМРЗ-КЛ-33-12</nameEHighLevel>
+            <DescDev>
+              <DescDev>25#БМРЗ-КЛ-33-12</DescDev>
+            </DescDev>
+          </DescDev>
+        </Device>
+        <Device objectGUID="794" enable="True" NumECU="3" NumDev="26" TypeName="БМРЗ-КЛ-33-12" ParsingVariant="IEC104Device">
+          <DescDev>
+            <NumSource>3</NumSource>
+            <NumECU>3</NumECU>
+            <NumDev>26</NumDev>
+            <AddressSpace>7000</AddressSpace>
+            <TypeContextMenu name="" />
+            <TypeName>БМРЗ-КЛ-33-12</TypeName>
+            <nameR>БМРЗ-КЛ-33-12</nameR>
+            <nameELowLevel>БМРЗ-КЛ-33-12</nameELowLevel>
+            <nameEHighLevel>TБМРЗ-КЛ-33-12</nameEHighLevel>
+            <DescDev>
+              <DescDev>26#БМРЗ-КЛ-33-12</DescDev>
+            </DescDev>
+          </DescDev>
+        </Device>
+		<Device objectGUID="1000" enable="true" NumECU="3" NumDev="1000" TypeName="BlockingVirtualDevice">
+          <DescDev>
+            <NumSource>3</NumSource>
+            <NumECU>3</NumECU>
+            <NumSec>1</NumSec>
+            <NumLock>1</NumLock>
+            <NumDev>1000</NumDev>
+            <AddressSpace>70000</AddressSpace>
+            <TypeName>BlockingVirtualDevice</TypeName>
+            <nameR>BlockingVirtualDevice</nameR>
+            <nameELowLevel>BlockingVirtualDevice</nameELowLevel>
+            <nameEHighLevel>BlockingVirtualDevice</nameEHighLevel>
+            <DescDev>The Virtual Device of states</DescDev>
+            <TransformationRatio></TransformationRatio>
+          </DescDev>
+        </Device>
+      </ECUDevices>
+      <DescDev>
+        <DescDev>27#AF_ECU</DescDev>
+      </DescDev>
+    </SourceECU>
+  </Configuration>
+</MTRA>

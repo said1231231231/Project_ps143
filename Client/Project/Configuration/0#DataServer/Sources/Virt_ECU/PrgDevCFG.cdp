@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<MTRA>
+  <Configuration>
+    <SourceECU objectGUID="1024" name="ECU" TypeName="ECU" NumECU="3" typeECU="Virt_ECU" describe="УВС №3" enable="True" numFC="3" NumDev="0" nameELowLevel="ECU_VIrt" nameEHighLevel="TECU_VIrt" nameR="ФК" fcadr="127.0.0.1">
+      <ECUDevices>
+        <Device objectGUID="1025" enable="true" NumECU="3" NumDev="1" TypeName="HandSetVirtualDevice" ParsingVariant="VD4HandSet">
+          <DescDev>
+            <NumSource>1</NumSource>
+            <NumECU>3</NumECU>
+            <NumDev>1</NumDev>
+            <AddressSpace></AddressSpace>
+            <TypeContextMenu name="" />
+            <TypeName>HandSetVirtualDevice</TypeName>
+            <nameR></nameR>
+            <nameELowLevel></nameELowLevel>
+            <nameEHighLevel></nameEHighLevel>
+            <DescDev>Вирт устройство управления положением разъединителей</DescDev>
+            <TransformationRatio></TransformationRatio>
+          </DescDev>
+        </Device>
+      </ECUDevices>
+      <DescDev>
+        <DescDev>1024#Virt_ECU</DescDev>
+      </DescDev>
+    </SourceECU>
+  </Configuration>
+</MTRA>
